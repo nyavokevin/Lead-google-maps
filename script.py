@@ -74,13 +74,28 @@ def _save_csv(contacts: list[dict], filename: str) -> None:
     print(f"  [✓] {len(contacts)} contacts → {filename}")
 
 
+def get_city_coords(location: str) -> tuple[float, float]:
+    normalized = location.strip().lower()
+    if normalized in CITY_COORDS:
+        return CITY_COORDS[normalized]
+
+    if "," in normalized:
+        city_only = normalized.split(",", 1)[0].strip()
+        if city_only in CITY_COORDS:
+            return CITY_COORDS[city_only]
+
+    raise ValueError(f"Ville inconnue pour CITY_COORDS: {location!r}")
+
+
 # ─── 1. Recherche Maps de base ────────────────────────────────────────────────
 
 def demo_maps_search():
     _section("1. Google Maps — restaurants à Antananarivo")
+    lat, lon = get_city_coords(LOCATION)
     places = search_places_maps(
         query="restaurant",
-        location=LOCATION,
+        lat=lat,
+        lon=lon,
         language=LANGUAGE,
         country=COUNTRY,
     )
@@ -92,9 +107,11 @@ def demo_maps_search():
 
 def demo_place_details():
     _section("2. Détails d'un hôtel (téléphone, site, horaires)")
+    lat, lon = get_city_coords(LOCATION)
     places = search_places_maps(
         query="hotel",
-        location=LOCATION,
+        lat=lat,
+        lon=lon,
         language=LANGUAGE,
         country=COUNTRY,
     )
@@ -155,9 +172,11 @@ def demo_job_search():
 
 def demo_no_website_leads():
     _section("5. Restaurants SANS site web (leads création de site)")
+    lat, lon = get_city_coords(LOCATION)
     leads = find_no_website_leads(
         query="restaurant",
-        location=LOCATION,
+        lat=lat,
+        lon=lon,
         language=LANGUAGE,
         country=COUNTRY,
         pages=2,   # 2 × 20 résultats scannés = 2 crédits API
@@ -173,9 +192,11 @@ def demo_no_website_leads():
 
 def demo_low_rating_leads():
     _section("6. Hôtels mal notés ≤ 3.5 (leads refonte digitale)")
+    lat, lon = get_city_coords(LOCATION)
     leads = find_low_rated_leads(
         query="hotel",
-        location=LOCATION,
+        lat=lat,
+        lon=lon,
         language=LANGUAGE,
         country=COUNTRY,
         max_rating=3.5,
@@ -192,8 +213,10 @@ def demo_low_rating_leads():
 
 def demo_tech_companies():
     _section("7. Entreprises tech / agences web (leads emploi ou partenariat)")
+    lat, lon = get_city_coords(LOCATION)
     companies = find_tech_companies(
-        location=LOCATION,
+        lat=lat,
+        lon=lon,
         language=LANGUAGE,
         country=COUNTRY,
     )
@@ -208,9 +231,11 @@ def demo_tech_companies():
 
 def demo_paginate_and_export():
     _section("8. Scrape multi-pages — tous les cafés (3 pages × 20 = 60 max)")
+    lat, lon = get_city_coords(LOCATION)
     places = paginate_maps_search(
         query="café",
-        location=LOCATION,
+        lat=lat,
+        lon=lon,
         language=LANGUAGE,
         country=COUNTRY,
         pages=3,
@@ -227,9 +252,11 @@ def demo_custom_city():
     # Exemple : Toamasina, Madagascar
     CITY_COORDS["toamasina"] = (-18.1492, 49.4023)
     CITY_COORDS["toamasina, madagascar"] = (-18.1492, 49.4023)
+    lat, lon = get_city_coords("Toamasina, Madagascar")
     places = search_places_maps(
         query="restaurant",
-        location="Toamasina, Madagascar",
+        lat=lat,
+        lon=lon,
         language=LANGUAGE,
         country=COUNTRY,
     )
@@ -252,11 +279,13 @@ def demo_generate_emails(model_name: str = "google/gemma-4-e4b"):
     _section("9. Pipeline complet — Leads → Emails personnalisés")
 
     # Step 1: collect leads without website for multiple business types
+    lat, lon = get_city_coords(LOCATION)
     all_leads = []
     for category_query in ["restaurant", "hotel", "cabinet médical", "boutique"]:
         leads = find_no_website_leads(
             query=category_query,
-            location=LOCATION,
+            lat=lat,
+            lon=lon,
             language=LANGUAGE,
             country=COUNTRY,
             pages=1,   # 1 page = 20 results scanned, 1 API credit

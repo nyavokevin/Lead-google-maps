@@ -1,0 +1,10 @@
+.DS_Store
+.env
+*.py[cod]
+__pycache__/
+*.sqlite3
+*.db
+*.log
+wa_session/
+lead_env/
+.env.example

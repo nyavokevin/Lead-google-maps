@@ -12,28 +12,11 @@ The email content adapts based on the lead's business type:
 
 import re
 
+from .llm_http import LMStudioClient
+from .serpapi import extract_contacts
+
 _lmstudio = None
-
-
-def _get_lmstudio():
-    """Lazily import the external `lmstudio` package and cache it.
-
-    This avoids import-time side-effects and makes errors clearer when the
-    runtime package is missing or fails to initialize.
-    """
-    global _lmstudio
-    if _lmstudio is not None:
-        return _lmstudio
-    try:
-        import lmstudio as _m
-    except Exception as exc:
-        raise ImportError(
-            "The external package 'lmstudio' could not be imported. "
-            "Install it or ensure it's available in your environment."
-        ) from exc
-    _lmstudio = _m
-    return _lmstudio
-
+_client = LMStudioClient(host='192.168.16.106', port='1234')
 
 # ─── Response cleaner ─────────────────────────────────────────────────────────
 
@@ -218,26 +201,23 @@ def generate_email_for_lead(lead: dict, model_name: str) -> dict:
         dict with keys: name, category, subject, body
     """
     category = classify_lead(lead)
-    lm = _get_lmstudio()
-    model = lm.llm(model_name)
 
-    # Build the chat
-    system_prompt = _build_system_prompt(category, lead)
-    chat = lm.Chat(system_prompt)
+    chat = _client.Chat(_build_system_prompt(category, lead))
     chat.add_user_message(_build_user_message(category, lead))
 
-    # Generate email body
-    response = model.respond(chat)
-    body = _clean_response(str(response))
-
-    # Subject line (static, no LLM call needed — saves credits)
+    body = _clean_response(_client.respond(chat, model=model_name))
     subject = _build_subject_prompt(category, lead)
+
+    # Normalize contact info (phone / whatsapp / email)
+    contact = extract_contacts([lead])[0]
 
     return {
         "name":     lead.get("title") or lead.get("name", ""),
         "category": category,
         "subject":  subject,
         "body":     body,
+        "whatsapp": contact.get("whatsapp", ""),
+        "email":    contact.get("email", ""),
     }
 
 

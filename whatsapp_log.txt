@@ -1,0 +1,124 @@
+2026-06-25 22:25:40,235  WARNING  ⚠️  Skipped 'Bon Appetit' — no WhatsApp number
+2026-06-25 22:25:40,237  WARNING  ⚠️  Skipped 'Cabinet médical' — no WhatsApp number
+2026-06-25 22:25:40,237  WARNING  ⚠️  Skipped 'Cabinet médical Fanazava' — no WhatsApp number
+2026-06-25 22:25:40,238  WARNING  ⚠️  Skipped 'Cabinet Médical' — no WhatsApp number
+2026-06-25 22:25:40,239  WARNING  ⚠️  Skipped 'Aur'elle Boutique' — no WhatsApp number
+2026-06-25 22:25:40,239  WARNING  ⚠️  Skipped 'BOUTIQUE MA COLLECTION' — no WhatsApp number
+2026-06-25 22:25:40,240  WARNING  ⚠️  Skipped 'Doux Câlin' — no WhatsApp number
+2026-06-25 22:25:40,240  WARNING  ⚠️  Skipped 'Ayem mode Muslim' — no WhatsApp number
+2026-06-25 22:25:40,240  INFO  ✅ 40 leads ready | ⚠️  8 skipped (no number)
+2026-06-25 22:26:04,322  INFO  🔐 Waiting for WhatsApp Web to load (scan QR if needed)…
+2026-06-25 22:27:30,159  WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/defcf5e0ad7b784e1345a7e9da302298
+2026-06-25 22:27:30,215  WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49602): Failed to establish a new connection: [Errno 61] Connection refused")': /session/defcf5e0ad7b784e1345a7e9da302298
+2026-06-25 22:27:30,233  WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49602): Failed to establish a new connection: [Errno 61] Connection refused")': /session/defcf5e0ad7b784e1345a7e9da302298
+2026-06-25 22:27:30,263  INFO  ──────────────────────────────────────────────────
+2026-06-25 22:27:30,265  INFO  📊 DONE — Sent: 0 | Failed: 0 | Skipped: 40
+2026-06-25 22:27:35,591  WARNING  ⚠️  Skipped 'Bon Appetit' — no WhatsApp number
+2026-06-25 22:27:35,592  WARNING  ⚠️  Skipped 'Cabinet médical' — no WhatsApp number
+2026-06-25 22:27:35,593  WARNING  ⚠️  Skipped 'Cabinet médical Fanazava' — no WhatsApp number
+2026-06-25 22:27:35,593  WARNING  ⚠️  Skipped 'Cabinet Médical' — no WhatsApp number
+2026-06-25 22:27:35,594  WARNING  ⚠️  Skipped 'Aur'elle Boutique' — no WhatsApp number
+2026-06-25 22:27:35,595  WARNING  ⚠️  Skipped 'BOUTIQUE MA COLLECTION' — no WhatsApp number
+2026-06-25 22:27:35,595  WARNING  ⚠️  Skipped 'Doux Câlin' — no WhatsApp number
+2026-06-25 22:27:35,596  WARNING  ⚠️  Skipped 'Ayem mode Muslim' — no WhatsApp number
+2026-06-25 22:27:35,597  INFO  ✅ 40 leads ready | ⚠️  8 skipped (no number)
+2026-06-25 22:28:01,970  INFO  🔐 Waiting for WhatsApp Web to load (scan QR if needed)…
+2026-06-25 22:29:33,091  INFO  ──────────────────────────────────────────────────
+2026-06-25 22:29:33,091  INFO  📊 DONE — Sent: 0 | Failed: 0 | Skipped: 40
+2026-06-25 22:29:49,194  WARNING  ⚠️  Skipped 'Bon Appetit' — no WhatsApp number
+2026-06-25 22:29:49,195  WARNING  ⚠️  Skipped 'Cabinet médical' — no WhatsApp number
+2026-06-25 22:29:49,196  WARNING  ⚠️  Skipped 'Cabinet médical Fanazava' — no WhatsApp number
+2026-06-25 22:29:49,196  WARNING  ⚠️  Skipped 'Cabinet Médical' — no WhatsApp number
+2026-06-25 22:29:49,197  WARNING  ⚠️  Skipped 'Aur'elle Boutique' — no WhatsApp number
+2026-06-25 22:29:49,197  WARNING  ⚠️  Skipped 'BOUTIQUE MA COLLECTION' — no WhatsApp number
+2026-06-25 22:29:49,198  WARNING  ⚠️  Skipped 'Doux Câlin' — no WhatsApp number
+2026-06-25 22:29:49,198  WARNING  ⚠️  Skipped 'Ayem mode Muslim' — no WhatsApp number
+2026-06-25 22:29:49,198  INFO  ✅ 40 leads ready | ⚠️  8 skipped (no number)
+2026-06-25 22:29:55,257  INFO  🔐 Waiting for WhatsApp Web to load (scan QR if needed)…
+2026-06-25 22:31:26,168  INFO  ──────────────────────────────────────────────────
+2026-06-25 22:31:26,168  INFO  📊 DONE — Sent: 0 | Failed: 0 | Skipped: 40
+2026-06-25 22:32:23,102  WARNING  ⚠️  Skipped 'Bon Appetit' — no WhatsApp number
+2026-06-25 22:32:23,104  WARNING  ⚠️  Skipped 'Cabinet médical' — no WhatsApp number
+2026-06-25 22:32:23,104  WARNING  ⚠️  Skipped 'Cabinet médical Fanazava' — no WhatsApp number
+2026-06-25 22:32:23,105  WARNING  ⚠️  Skipped 'Cabinet Médical' — no WhatsApp number
+2026-06-25 22:32:23,106  WARNING  ⚠️  Skipped 'Aur'elle Boutique' — no WhatsApp number
+2026-06-25 22:32:23,106  WARNING  ⚠️  Skipped 'BOUTIQUE MA COLLECTION' — no WhatsApp number
+2026-06-25 22:32:23,107  WARNING  ⚠️  Skipped 'Doux Câlin' — no WhatsApp number
+2026-06-25 22:32:23,107  WARNING  ⚠️  Skipped 'Ayem mode Muslim' — no WhatsApp number
+2026-06-25 22:32:23,108  INFO  ✅ 40 leads ready | ⚠️  8 skipped (no number)
+2026-06-25 22:32:29,078  INFO  🔐 Waiting for WhatsApp Web to load (scan QR if needed)…
+2026-06-25 22:32:34,070  INFO  ✅ WhatsApp Web ready!
+2026-06-25 22:32:34,070  INFO  [1/40] → l'Orient Asian Fusion Restaurant (+261343678888)
+2026-06-25 22:32:48,581  INFO    ✅ Sent to l'Orient Asian Fusion Restaurant
+2026-06-25 22:32:48,582  INFO    ⏳ Waiting 12s…
+2026-06-25 22:33:00,587  INFO  [2/40] → Le Petit Verdot (+261202239234)
+2026-06-25 22:34:02,528  ERROR    ❌ Failed for Le Petit Verdot — number may not be on WhatsApp
+2026-06-25 22:34:02,528  INFO    ⏳ Waiting 12s…
+2026-06-25 22:34:14,530  INFO  [3/40] → LE PHARE D'IVANDRY (+261324212325)
+2026-06-25 22:34:26,863  INFO    ✅ Sent to LE PHARE D'IVANDRY
+2026-06-25 22:34:26,863  INFO    ⏳ Waiting 12s…
+2026-06-25 22:34:38,867  INFO  [4/40] → La Plantation (+261341341680)
+2026-06-25 22:34:49,009  INFO    ✅ Sent to La Plantation
+2026-06-25 22:34:49,009  INFO    ⏳ Waiting 12s…
+2026-06-25 22:35:01,016  INFO  [5/40] → Le Romazava (+261320507000)
+2026-06-25 22:35:14,928  INFO    ✅ Sent to Le Romazava
+2026-06-25 22:35:14,928  INFO    ⏳ Waiting 12s…
+2026-06-25 22:35:26,928  INFO  [6/40] → Restaurant Le CITIZEN (+261340572060)
+2026-06-25 22:36:28,226  ERROR    ❌ Failed for Restaurant Le CITIZEN — number may not be on WhatsApp
+2026-06-25 22:36:28,226  INFO    ⏳ Waiting 12s…
+2026-06-25 22:36:40,227  INFO  [7/40] → Restaurant marmity (+261389073202)
+2026-06-25 22:37:41,190  ERROR    ❌ Failed for Restaurant marmity — number may not be on WhatsApp
+2026-06-25 22:37:41,191  INFO    ⏳ Waiting 12s…
+2026-06-25 22:37:53,192  INFO  [8/40] → Le Carnivore - Restaurant Bar Lounge (+261385512504)
+2026-06-25 22:38:13,699  WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/c95feb86d7fee757c9a95797ad11a2b5
+2026-06-25 22:38:13,734  WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=50217): Failed to establish a new connection: [Errno 61] Connection refused")': /session/c95feb86d7fee757c9a95797ad11a2b5
+2026-06-25 22:38:13,735  WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=50217): Failed to establish a new connection: [Errno 61] Connection refused")': /session/c95feb86d7fee757c9a95797ad11a2b5
+2026-06-25 22:38:13,737  INFO  ──────────────────────────────────────────────────
+2026-06-25 22:38:13,798  INFO  📊 DONE — Sent: 4 | Failed: 3
+2026-06-25 22:39:11,905  WARNING  ⚠️  Skipped 'Cabinet médical' — no WhatsApp number
+2026-06-25 22:39:11,906  WARNING  ⚠️  Skipped 'Cabinet médical Fanazava' — no WhatsApp number
+2026-06-25 22:39:11,907  WARNING  ⚠️  Skipped 'Cabinet Médical' — no WhatsApp number
+2026-06-25 22:39:11,908  WARNING  ⚠️  Skipped 'Aur'elle Boutique' — no WhatsApp number
+2026-06-25 22:39:11,908  WARNING  ⚠️  Skipped 'BOUTIQUE MA COLLECTION' — no WhatsApp number
+2026-06-25 22:39:11,909  WARNING  ⚠️  Skipped 'Doux Câlin' — no WhatsApp number
+2026-06-25 22:39:11,909  WARNING  ⚠️  Skipped 'Ayem mode Muslim' — no WhatsApp number
+2026-06-25 22:39:11,909  INFO  ✅ 32 leads ready | ⚠️  7 skipped (no number)
+2026-06-25 22:39:21,931  INFO  🔐 Waiting for WhatsApp Web to load (scan QR if needed)…
+2026-06-25 22:39:25,702  INFO  ✅ WhatsApp Web ready!
+2026-06-25 22:39:25,705  INFO  [1/32] → Haka Fy Authentic Restaurant (+261340716206)
+2026-06-25 22:39:35,074  INFO    ✅ Sent to Haka Fy Authentic Restaurant
+2026-06-25 22:39:35,075  INFO    ⏳ Waiting 12s…
+2026-06-25 22:39:47,077  INFO  [2/32] → Mazotoa Vaovao (+261384600107)
+2026-06-25 22:40:48,061  WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/46cb93eaea29737ca22d86a259579f29
+2026-06-25 22:40:48,063  WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=50868): Failed to establish a new connection: [Errno 61] Connection refused")': /session/46cb93eaea29737ca22d86a259579f29
+2026-06-25 22:40:48,223  WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=50868): Failed to establish a new connection: [Errno 61] Connection refused")': /session/46cb93eaea29737ca22d86a259579f29
+2026-06-25 22:40:48,236  INFO  ──────────────────────────────────────────────────
+2026-06-25 22:40:48,241  INFO  📊 DONE — Sent: 1 | Failed: 0
+2026-06-25 22:41:20,618  WARNING  ⚠️  Skipped 'Cabinet médical' — no number
+2026-06-25 22:41:20,618  WARNING  ⚠️  Skipped 'Cabinet médical Fanazava' — no number
+2026-06-25 22:41:20,619  WARNING  ⚠️  Skipped 'Cabinet Médical' — no number
+2026-06-25 22:41:20,620  WARNING  ⚠️  Skipped 'Aur'elle Boutique' — no number
+2026-06-25 22:41:20,620  WARNING  ⚠️  Skipped 'BOUTIQUE MA COLLECTION' — no number
+2026-06-25 22:41:20,621  WARNING  ⚠️  Skipped 'Doux Câlin' — no number
+2026-06-25 22:41:20,621  WARNING  ⚠️  Skipped 'Ayem mode Muslim' — no number
+2026-06-25 22:41:20,622  INFO  ✅ 30 leads ready | ⚠️  7 skipped
+2026-06-25 22:41:26,523  INFO  🔐 Waiting for WhatsApp Web (scan QR if needed)…
+2026-06-25 22:41:30,874  INFO  ✅ Logged in!
+2026-06-25 22:41:30,875  INFO  [1/30] → Le Rossini (+261380142002)
+2026-06-25 22:41:39,318  WARNING    ❌ Le Rossini (+261380142002) — not on WhatsApp or failed
+2026-06-25 22:41:39,319  INFO    ⏳ Waiting 12s…
+2026-06-25 22:41:51,323  INFO  [2/30] → A'TO Restaurant (+261348336361)
+2026-06-25 22:41:59,288  WARNING    ❌ A'TO Restaurant (+261348336361) — not on WhatsApp or failed
+2026-06-25 22:41:59,288  INFO    ⏳ Waiting 12s…
+2026-06-25 22:42:11,292  INFO  [3/30] → Andriana Luxury (+261387107672)
+2026-06-25 22:42:22,574  WARNING    ❌ Andriana Luxury (+261387107672) — not on WhatsApp or failed
+2026-06-25 22:42:22,575  INFO    ⏳ Waiting 12s…
+2026-06-25 22:42:34,576  INFO  [4/30] → Cabinet Médical Ampefiloha (+261341114310)
+2026-06-25 22:42:45,920  INFO    ✅ Sent to Cabinet Médical Ampefiloha
+2026-06-25 22:42:45,920  INFO    ⏳ Waiting 12s…
+2026-06-25 22:42:57,921  INFO  [5/30] → Espace Médical Ambodivona (+261340562566)
+2026-06-25 22:43:03,852  WARNING    ❌ Espace Médical Ambodivona (+261340562566) — not on WhatsApp or failed
+2026-06-25 22:43:03,853  INFO    ⏳ Waiting 12s…
+2026-06-25 22:43:15,857  INFO  [6/30] → Cabinet Médical La Bienveillance (+261342298452)
+2026-06-25 22:43:21,979  INFO  ──────────────────────────────────────────────────
+2026-06-25 22:43:21,979  INFO  📊 DONE — ✅ Sent: 1 | ❌ Not on WA / failed: 4
