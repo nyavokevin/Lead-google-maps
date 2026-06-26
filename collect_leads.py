@@ -39,9 +39,9 @@ from lib.message_gen import generate_messages_batch
 # ─── Config ───────────────────────────────────────────────────────────────────
 
 TARGET_PER_REGION = {
-    "madagascar":    50,
-    "france":        50,
-    "international": 50,
+    "madagascar":    0,
+    "france":        100,
+    "international": 0,
 }
 LEADS_PER_CITY   = 10   # target per city (regions have 5 cities each)
 PAGES_PER_QUERY  =  1   # 1 page = 20 results scanned = 1 SerpApi credit

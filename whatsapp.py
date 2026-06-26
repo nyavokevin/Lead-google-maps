@@ -15,7 +15,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 
 # ─── CONFIG ────────────────────────────────────────────────────────────────────
-CSV_FILE      = "emails_generes.csv"
+CSV_FILE      = "output/leads_raw.csv"
 DELAY_BETWEEN = 12
 MAX_DAILY     = 40
 LOG_FILE      = "whatsapp_log.txt"
@@ -36,10 +36,10 @@ def format_number(raw) -> str | None:
     if pd.isna(raw) or str(raw).strip() in ("", "nan", "0"):
         return None
     number = str(raw).strip().replace(" ", "").replace("-", "")
-    if number.startswith("+261"):  return number
-    if number.startswith("261"):   return "+" + number
-    if number.startswith("0"):     return "+261" + number[1:]
-    return "+261" + number
+    if number.startswith("+33"):  return number
+    if number.startswith("33"):   return "+" + number
+    if number.startswith("0"):     return "+33" + number[1:]
+    return "+33" + number
 
 
 def load_leads(csv_path: str) -> list[dict]:
@@ -56,47 +56,54 @@ def load_leads(csv_path: str) -> list[dict]:
     return leads
 
 
-def check_not_on_whatsapp(driver) -> bool:
+def dismiss_popup(driver) -> bool:
     """
-    Detect the popup: data-testid="confirm-popup"
-    Content: "The number +XXX isn't on WhatsApp."
-    Returns True if popup appeared (number not on WA), and dismisses it.
+    Detect 'number not on WhatsApp' popup and dismiss it.
+    Re-queries elements fresh each time to avoid StaleElementReferenceException.
+    Uses JS click to avoid ElementNotInteractableException.
     """
     try:
-        popup = driver.find_element(By.CSS_SELECTOR, '[data-testid="confirm-popup"]')
-        if popup.is_displayed():
-            # Click the OK button inside the popup
-            ok_btn = popup.find_element(By.CSS_SELECTOR, 'button')
-            ok_btn.click()
-            time.sleep(1)
-            return True
-    except NoSuchElementException:
-        pass
-    return False
+        # find_elements returns [] instead of raising — safe against StaleElement
+        popups = driver.find_elements(By.CSS_SELECTOR, '[data-testid="confirm-popup"]')
+        if not popups or not popups[0].is_displayed():
+            return False
+
+        # Query button fresh in one shot — never reuse a stored reference
+        buttons = driver.find_elements(By.CSS_SELECTOR, '[data-testid="confirm-popup"] button')
+        if not buttons:
+            return False
+
+        # JS click bypasses both interactability and stale reference issues
+        driver.execute_script("arguments[0].click();", buttons[0])
+        time.sleep(1)
+        log.warning("  ⚠️  Popup dismissed — number not on WhatsApp")
+        return True
+
+    except Exception as e:
+        log.warning(f"  ⚠️  Popup check error (ignored): {e}")
+        return False
 
 
 def send_message(driver, phone: str, message: str) -> bool:
     encoded = urllib.parse.quote(message)
     driver.get(f"https://web.whatsapp.com/send?phone={phone}&text={encoded}")
 
+    time.sleep(4)
+    if dismiss_popup(driver):
+        return False
+
     wait = WebDriverWait(driver, 20)
 
-    # ── Wait for page to settle, then check for "not on WhatsApp" popup ────────
-    time.sleep(4)
-    if check_not_on_whatsapp(driver):
-        return False  # number not on WhatsApp
-
-    # ── Strategy 1: click Send button ──────────────────────────────────────────
+    # ── Strategy 1: JS click on Send button ────────────────────────────────────
     try:
         send_btn = wait.until(
             EC.element_to_be_clickable((By.CSS_SELECTOR, 'button[aria-label="Send"]'))
         )
         time.sleep(1)
-        send_btn.click()
+        driver.execute_script("arguments[0].click();", send_btn)
         time.sleep(2)
 
-        # Double-check: popup may appear right after clicking
-        if check_not_on_whatsapp(driver):
+        if dismiss_popup(driver):
             return False
 
         return True
@@ -122,7 +129,7 @@ def send_messages(leads: list[dict]):
     options.add_argument("--disable-dev-shm-usage")
 
     driver = webdriver.Chrome(options=options)
-    sent = failed = not_on_wa = 0
+    sent = failed = 0
 
     try:
         driver.get("https://web.whatsapp.com")
@@ -142,15 +149,17 @@ def send_messages(leads: list[dict]):
             name, phone, msg = lead["name"], lead["phone"], lead["message"]
             log.info(f"[{i+1}/{len(leads)}] → {name} ({phone})")
 
-            ok = send_message(driver, phone, msg)
+            try:
+                ok = send_message(driver, phone, msg)
+            except Exception as e:
+                log.error(f"  ❌ Unexpected error for {name}: {e}")
+                ok = False
 
             if ok:
                 log.info(f"  ✅ Sent to {name}")
                 sent += 1
             else:
-                # Check if it was a "not on WhatsApp" vs other error
-                log.warning(f"  ❌ {name} ({phone}) — not on WhatsApp or failed")
-                not_on_wa += 1
+                log.warning(f"  ❌ Skipped {name} — not on WhatsApp or error")
                 failed += 1
 
             if i < len(leads) - 1:
@@ -160,7 +169,7 @@ def send_messages(leads: list[dict]):
     finally:
         driver.quit()
         log.info("─" * 50)
-        log.info(f"📊 DONE — ✅ Sent: {sent} | ❌ Not on WA / failed: {not_on_wa}")
+        log.info(f"📊 DONE — ✅ Sent: {sent} | ❌ Not on WA / failed: {failed}")
 
 
 if __name__ == "__main__":

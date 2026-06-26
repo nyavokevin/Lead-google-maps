@@ -54,7 +54,7 @@ load_dotenv(Path(__file__).resolve().parent / ".env")
 
 # os.environ["SERPAPI_KEY"] = "your_key_here"  # ou export SERPAPI_KEY=...
 
-LOCATION = "Antananarivo, Madagascar"   # doit être dans CITY_COORDS
+LOCATION = "Mahajanga, Madagascar"   # doit être dans CITY_COORDS
 COUNTRY  = "mg"                         # code ISO pays
 LANGUAGE = "fr"                         # langue des résultats
 
@@ -288,7 +288,7 @@ def demo_generate_emails(model_name: str = "google/gemma-4-e4b"):
             lon=lon,
             language=LANGUAGE,
             country=COUNTRY,
-            pages=1,   # 1 page = 20 results scanned, 1 API credit
+            pages=2,   # 1 page = 20 results scanned, 1 API credit
         )
         print(f"  [{category_query}] → {len(leads)} leads sans site")
         all_leads.extend(leads)
@@ -299,7 +299,7 @@ def demo_generate_emails(model_name: str = "google/gemma-4-e4b"):
     emails = generate_emails_for_leads(
         leads=all_leads,
         model_name=model_name,
-        max_leads=50,
+        max_leads=100,
     )
 
     # Step 3: print each email
