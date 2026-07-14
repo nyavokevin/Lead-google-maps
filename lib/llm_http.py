@@ -18,6 +18,7 @@ Usage:
 """
 
 import json
+import os
 import urllib.request
 import urllib.error
 
@@ -52,7 +53,12 @@ class LMStudioClient:
         timeout : Request timeout in seconds (default 120)
     """
 
-    def __init__(self, host: str = "localhost", port: int = 1234, timeout: int = 120):
+    def __init__(self, host: str = None, port: int = None, timeout: int = 120):
+        host = host or os.environ.get("LM_STUDIO_HOST", "192.168.16.104")
+        if port is not None:
+            port = int(port)
+        else:
+            port = int(os.environ.get("LM_STUDIO_PORT", "1234"))
         self.base_url = f"http://{host}:{port}/v1"
         self.timeout = timeout
 

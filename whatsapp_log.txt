@@ -478,3 +478,1022 @@ Stacktrace:
 2026-06-26 22:33:44,136  WARNING  ⚠️  Skipped 'Graines d’ici boutique' — no number
 2026-06-26 22:33:44,136  WARNING  ⚠️  Skipped 'Boutique Louve' — no number
 2026-06-26 22:33:44,137  INFO  ✅ 58 leads ready | ⚠️  14 skipped
+2026-06-26 22:54:30,217  WARNING  ⚠️  Skipped 'Cabinet médical Gobelins Port Royal' — no number
+2026-06-26 22:54:30,217  WARNING  ⚠️  Skipped 'Cabinet Médical' — no number
+2026-06-26 22:54:30,219  WARNING  ⚠️  Skipped 'Cabinet de santé MONTCHAT' — no number
+2026-06-26 22:54:30,219  WARNING  ⚠️  Skipped 'Les Ateliers-Boutique de Créateurs' — no number
+2026-06-26 22:54:30,220  WARNING  ⚠️  Skipped 'Cabinet médical' — no number
+2026-06-26 22:54:30,221  WARNING  ⚠️  Skipped 'Boutique Lise' — no number
+2026-06-26 22:54:30,222  WARNING  ⚠️  Skipped 'Maison Médicale Poincaré' — no number
+2026-06-26 22:54:30,222  WARNING  ⚠️  Skipped 'La Petite Boutique Fondaudege' — no number
+2026-06-26 22:54:30,223  WARNING  ⚠️  Skipped 'La Boutique d'Ozzie' — no number
+2026-06-26 22:54:30,225  WARNING  ⚠️  Skipped 'Cabinet Médical De La Fraternité' — no number
+2026-06-26 22:54:30,226  WARNING  ⚠️  Skipped 'Hélios Santé- Cabinet de médecine et kinésithérapie du sport' — no number
+2026-06-26 22:54:30,226  WARNING  ⚠️  Skipped 'cabinet médical' — no number
+2026-06-26 22:54:30,227  WARNING  ⚠️  Skipped 'Graines d’ici boutique' — no number
+2026-06-26 22:54:30,227  WARNING  ⚠️  Skipped 'Boutique Louve' — no number
+2026-06-26 22:54:30,229  INFO  ✅ 58 leads ready | ⚠️  14 skipped
+2026-06-26 22:54:40,236  INFO  🔐 Waiting for WhatsApp Web (scan QR if needed)…
+2026-06-26 22:54:43,291  INFO  ✅ Logged in!
+2026-06-26 22:54:43,291  INFO  [1/58] → Le P'tit Bistrot (+33142785580)
+2026-06-26 22:54:49,486  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 22:54:49,487  WARNING    ❌ Skipped Le P'tit Bistrot — not on WhatsApp or error
+2026-06-26 22:54:49,487  INFO    ⏳ Waiting 12s…
+2026-06-26 22:55:01,491  INFO  [2/58] → Cabinet Médical La Fayette (+33140347800)
+2026-06-26 22:55:27,176  WARNING    ❌ Skipped Cabinet Médical La Fayette — not on WhatsApp or error
+2026-06-26 22:55:27,176  INFO    ⏳ Waiting 12s…
+2026-06-26 22:55:39,176  INFO  [3/58] → Cabinet Médical Bolivar (+33183642939)
+2026-06-26 22:55:52,735  WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/0651e8adaea77ebe9592f032063ff19b
+2026-06-26 22:55:52,768  WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49747): Failed to establish a new connection: [Errno 61] Connection refused")': /session/0651e8adaea77ebe9592f032063ff19b
+2026-06-26 22:55:52,771  WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49747): Failed to establish a new connection: [Errno 61] Connection refused")': /session/0651e8adaea77ebe9592f032063ff19b
+2026-06-26 22:55:52,775  INFO  ──────────────────────────────────────────────────
+2026-06-26 22:55:52,775  INFO  📊 DONE — ✅ Sent: 0 | ❌ Not on WA / failed: 2
+2026-06-26 22:56:39,989  WARNING  ⚠️  Skipped 'Cabinet médical Gobelins Port Royal' — no number
+2026-06-26 22:56:39,989  WARNING  ⚠️  Skipped 'Cabinet Médical' — no number
+2026-06-26 22:56:39,991  WARNING  ⚠️  Skipped 'Cabinet de santé MONTCHAT' — no number
+2026-06-26 22:56:39,991  WARNING  ⚠️  Skipped 'Les Ateliers-Boutique de Créateurs' — no number
+2026-06-26 22:56:39,992  WARNING  ⚠️  Skipped 'Cabinet médical' — no number
+2026-06-26 22:56:39,993  WARNING  ⚠️  Skipped 'Boutique Lise' — no number
+2026-06-26 22:56:39,994  WARNING  ⚠️  Skipped 'Maison Médicale Poincaré' — no number
+2026-06-26 22:56:39,995  WARNING  ⚠️  Skipped 'La Petite Boutique Fondaudege' — no number
+2026-06-26 22:56:39,995  WARNING  ⚠️  Skipped 'La Boutique d'Ozzie' — no number
+2026-06-26 22:56:39,997  WARNING  ⚠️  Skipped 'Cabinet Médical De La Fraternité' — no number
+2026-06-26 22:56:39,998  WARNING  ⚠️  Skipped 'Hélios Santé- Cabinet de médecine et kinésithérapie du sport' — no number
+2026-06-26 22:56:39,998  WARNING  ⚠️  Skipped 'cabinet médical' — no number
+2026-06-26 22:56:39,999  WARNING  ⚠️  Skipped 'Graines d’ici boutique' — no number
+2026-06-26 22:56:39,999  WARNING  ⚠️  Skipped 'Boutique Louve' — no number
+2026-06-26 22:56:40,001  INFO  ✅ 58 leads ready | ⚠️  14 skipped
+2026-06-26 22:56:44,587  INFO  🔐 Waiting for WhatsApp Web (scan QR if needed)…
+2026-06-26 22:56:49,456  INFO  ✅ Logged in!
+2026-06-26 22:56:49,456  INFO  [1/58] → Le P'tit Bistrot (+261142785580)
+2026-06-26 22:56:55,331  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 22:56:55,331  WARNING    ❌ Skipped Le P'tit Bistrot — not on WhatsApp or error
+2026-06-26 22:56:55,331  INFO    ⏳ Waiting 12s…
+2026-06-26 22:57:07,335  INFO  [2/58] → Cabinet Médical La Fayette (+261140347800)
+2026-06-26 22:57:08,435  WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/cd659e87d94efa57d1c6be7d4aaaae0e
+2026-06-26 22:57:08,438  WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49817): Failed to establish a new connection: [Errno 61] Connection refused")': /session/cd659e87d94efa57d1c6be7d4aaaae0e
+2026-06-26 22:57:08,442  WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49817): Failed to establish a new connection: [Errno 61] Connection refused")': /session/cd659e87d94efa57d1c6be7d4aaaae0e
+2026-06-26 22:57:08,444  INFO  ──────────────────────────────────────────────────
+2026-06-26 22:57:08,444  INFO  📊 DONE — ✅ Sent: 0 | ❌ Not on WA / failed: 1
+2026-06-26 23:00:29,894  WARNING  ⚠️  Skipped 'Cabinet médical Gobelins Port Royal' — no number
+2026-06-26 23:00:29,894  WARNING  ⚠️  Skipped 'Cabinet Médical' — no number
+2026-06-26 23:00:29,896  WARNING  ⚠️  Skipped 'Cabinet de santé MONTCHAT' — no number
+2026-06-26 23:00:29,896  WARNING  ⚠️  Skipped 'Les Ateliers-Boutique de Créateurs' — no number
+2026-06-26 23:00:29,897  WARNING  ⚠️  Skipped 'Cabinet médical' — no number
+2026-06-26 23:00:29,898  WARNING  ⚠️  Skipped 'Boutique Lise' — no number
+2026-06-26 23:00:29,899  WARNING  ⚠️  Skipped 'Maison Médicale Poincaré' — no number
+2026-06-26 23:00:29,899  WARNING  ⚠️  Skipped 'La Petite Boutique Fondaudege' — no number
+2026-06-26 23:00:29,900  WARNING  ⚠️  Skipped 'La Boutique d'Ozzie' — no number
+2026-06-26 23:00:29,909  WARNING  ⚠️  Skipped 'Cabinet Médical De La Fraternité' — no number
+2026-06-26 23:00:29,909  WARNING  ⚠️  Skipped 'Hélios Santé- Cabinet de médecine et kinésithérapie du sport' — no number
+2026-06-26 23:00:29,909  WARNING  ⚠️  Skipped 'cabinet médical' — no number
+2026-06-26 23:00:29,910  WARNING  ⚠️  Skipped 'Graines d’ici boutique' — no number
+2026-06-26 23:00:29,910  WARNING  ⚠️  Skipped 'Boutique Louve' — no number
+2026-06-26 23:00:29,911  INFO  ✅ 58 leads ready | ⚠️  14 skipped
+2026-06-26 23:00:41,174  INFO  🔐 Waiting for WhatsApp Web (scan QR if needed)…
+2026-06-26 23:00:44,809  INFO  ✅ Logged in!
+2026-06-26 23:00:44,810  INFO  [1/58] → Le P'tit Bistrot (+261142785580)
+2026-06-26 23:00:52,661  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:00:52,662  WARNING    ❌ Skipped Le P'tit Bistrot — not on WhatsApp or error
+2026-06-26 23:00:52,662  INFO    ⏳ Waiting 12s…
+2026-06-26 23:01:04,667  INFO  [2/58] → Cabinet Médical La Fayette (+261140347800)
+2026-06-26 23:01:10,712  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:01:10,713  WARNING    ❌ Skipped Cabinet Médical La Fayette — not on WhatsApp or error
+2026-06-26 23:01:10,713  INFO    ⏳ Waiting 12s…
+2026-06-26 23:01:19,971  WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/86481dd3764636da73a2b09f2793bcf2
+2026-06-26 23:01:19,974  WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49933): Failed to establish a new connection: [Errno 61] Connection refused")': /session/86481dd3764636da73a2b09f2793bcf2
+2026-06-26 23:01:19,975  WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49933): Failed to establish a new connection: [Errno 61] Connection refused")': /session/86481dd3764636da73a2b09f2793bcf2
+2026-06-26 23:01:19,976  INFO  ──────────────────────────────────────────────────
+2026-06-26 23:01:19,976  INFO  📊 DONE — ✅ Sent: 0 | ❌ Not on WA / failed: 2
+2026-06-26 23:03:14,752  WARNING  ⚠️  Skipped 'Betsy View Restaurant' — no number
+2026-06-26 23:03:14,752  WARNING  ⚠️  Skipped 'La Taverne restaurant' — no number
+2026-06-26 23:03:14,753  WARNING  ⚠️  Skipped 'Gourmandise 401' — no number
+2026-06-26 23:03:14,753  WARNING  ⚠️  Skipped 'Bollywood Restaurant' — no number
+2026-06-26 23:03:14,753  WARNING  ⚠️  Skipped 'Sakafo gasy Finaritra' — no number
+2026-06-26 23:03:14,754  WARNING  ⚠️  Skipped 'Lo següent' — no number
+2026-06-26 23:03:14,754  WARNING  ⚠️  Skipped 'Chongqing Restaurant' — no number
+2026-06-26 23:03:14,755  WARNING  ⚠️  Skipped 'Nour Goûté' — no number
+2026-06-26 23:03:14,755  WARNING  ⚠️  Skipped 'La planque' — no number
+2026-06-26 23:03:14,756  WARNING  ⚠️  Skipped 'Restaurant Éléphant' — no number
+2026-06-26 23:03:14,756  WARNING  ⚠️  Skipped 'Tusan valiha' — no number
+2026-06-26 23:03:14,756  WARNING  ⚠️  Skipped 'SNACK GRILL CAP DIEGO' — no number
+2026-06-26 23:03:14,757  WARNING  ⚠️  Skipped 'Molt-be' — no number
+2026-06-26 23:03:14,762  WARNING  ⚠️  Skipped 'C'Gasy' — no number
+2026-06-26 23:03:14,763  WARNING  ⚠️  Skipped 'Relais d'Ankarafantsika' — no number
+2026-06-26 23:03:14,764  WARNING  ⚠️  Skipped 'Sunny Hotel Majunga' — no number
+2026-06-26 23:03:14,767  WARNING  ⚠️  Skipped 'Marolaka Eiffel' — no number
+2026-06-26 23:03:14,768  WARNING  ⚠️  Skipped 'Pasage de Vhiny' — no number
+2026-06-26 23:03:14,768  WARNING  ⚠️  Skipped 'Maruti Hotel' — no number
+2026-06-26 23:03:14,768  WARNING  ⚠️  Skipped 'Centre médical Le Bien-être Ambohimandamina Sotema Mahajanga' — no number
+2026-06-26 23:03:14,768  WARNING  ⚠️  Skipped 'Cabinet d'accouchement latifa' — no number
+2026-06-26 23:03:14,769  WARNING  ⚠️  Skipped 'Cabinet Medical' — no number
+2026-06-26 23:03:14,769  WARNING  ⚠️  Skipped 'Cabinet Medical La Corniche' — no number
+2026-06-26 23:03:14,770  WARNING  ⚠️  Skipped 'Cabinet Medical' — no number
+2026-06-26 23:03:14,770  WARNING  ⚠️  Skipped 'Cabinet Médical LANTO' — no number
+2026-06-26 23:03:14,773  WARNING  ⚠️  Skipped 'Cabinet Medical Secours' — no number
+2026-06-26 23:03:14,775  WARNING  ⚠️  Skipped 'Cabinet médical' — no number
+2026-06-26 23:03:14,776  WARNING  ⚠️  Skipped 'Cabinet de soins' — no number
+2026-06-26 23:03:14,778  WARNING  ⚠️  Skipped 'Cabinet medical Voan-tsinapy' — no number
+2026-06-26 23:03:14,779  WARNING  ⚠️  Skipped 'Cabinet medical d'Ankadindratombo' — no number
+2026-06-26 23:03:14,781  WARNING  ⚠️  Skipped 'Cabinet Médical MIARO NY AINA' — no number
+2026-06-26 23:03:14,781  WARNING  ⚠️  Skipped 'Dr Gervais' — no number
+2026-06-26 23:03:14,787  WARNING  ⚠️  Skipped 'CSB II Andoharanofotsy' — no number
+2026-06-26 23:03:14,789  WARNING  ⚠️  Skipped 'AMIT' — no number
+2026-06-26 23:03:14,790  WARNING  ⚠️  Skipped 'MIALY BOUTIQUE' — no number
+2026-06-26 23:03:14,791  WARNING  ⚠️  Skipped 'BIKA BIKA' — no number
+2026-06-26 23:03:14,791  WARNING  ⚠️  Skipped 'Océan Indien' — no number
+2026-06-26 23:03:14,793  WARNING  ⚠️  Skipped 'Magasin Nileshe Goulabchand' — no number
+2026-06-26 23:03:14,794  WARNING  ⚠️  Skipped 'Boutique technic's mobile' — no number
+2026-06-26 23:03:14,796  INFO  ✅ 61 leads ready | ⚠️  39 skipped
+2026-06-26 23:03:25,107  INFO  🔐 Waiting for WhatsApp Web (scan QR if needed)…
+2026-06-26 23:03:28,718  INFO  ✅ Logged in!
+2026-06-26 23:03:28,718  INFO  [1/61] → La Petite cour (+261326554450)
+2026-06-26 23:03:35,340  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:03:35,340  WARNING    ❌ Skipped La Petite cour — not on WhatsApp or error
+2026-06-26 23:03:35,340  INFO    ⏳ Waiting 12s…
+2026-06-26 23:03:47,345  INFO  [2/61] → L'Annexe (+261387970315)
+2026-06-26 23:04:12,312  WARNING    ❌ Skipped L'Annexe — not on WhatsApp or error
+2026-06-26 23:04:12,312  INFO    ⏳ Waiting 12s…
+2026-06-26 23:04:24,317  INFO  [3/61] → Restaurant La Terrasse (+261385481107)
+2026-06-26 23:04:30,203  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:04:30,203  WARNING    ❌ Skipped Restaurant La Terrasse — not on WhatsApp or error
+2026-06-26 23:04:30,204  INFO    ⏳ Waiting 12s…
+2026-06-26 23:04:42,209  INFO  [4/61] → Planète Nours (+261324445436)
+2026-06-26 23:04:47,871  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:04:47,871  WARNING    ❌ Skipped Planète Nours — not on WhatsApp or error
+2026-06-26 23:04:47,871  INFO    ⏳ Waiting 12s…
+2026-06-26 23:04:59,877  INFO  [5/61] → Restaurant Mora Mora (+261327009822)
+2026-06-26 23:05:06,013  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:05:06,014  WARNING    ❌ Skipped Restaurant Mora Mora — not on WhatsApp or error
+2026-06-26 23:05:06,014  INFO    ⏳ Waiting 12s…
+2026-06-26 23:05:18,019  INFO  [6/61] → F'ty Club (+261341881062)
+2026-06-26 23:05:24,223  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:05:24,224  WARNING    ❌ Skipped F'ty Club — not on WhatsApp or error
+2026-06-26 23:05:24,224  INFO    ⏳ Waiting 12s…
+2026-06-26 23:05:36,227  INFO  [7/61] → Coco loko (+261322796067)
+2026-06-26 23:05:42,451  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:05:42,452  WARNING    ❌ Skipped Coco loko — not on WhatsApp or error
+2026-06-26 23:05:42,452  INFO    ⏳ Waiting 12s…
+2026-06-26 23:05:54,455  INFO  [8/61] → coco lodge (+261379299356)
+2026-06-26 23:06:00,104  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:06:00,106  WARNING    ❌ Skipped coco lodge — not on WhatsApp or error
+2026-06-26 23:06:00,106  INFO    ⏳ Waiting 12s…
+2026-06-26 23:06:12,112  INFO  [9/61] → C'Bon (+261340172115)
+2026-06-26 23:06:18,531  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:06:18,532  WARNING    ❌ Skipped C'Bon — not on WhatsApp or error
+2026-06-26 23:06:18,532  INFO    ⏳ Waiting 12s…
+2026-06-26 23:06:30,536  INFO  [10/61] → Restaurant Karibo Mahoraise (+261340776776)
+2026-06-26 23:06:36,764  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:06:36,766  WARNING    ❌ Skipped Restaurant Karibo Mahoraise — not on WhatsApp or error
+2026-06-26 23:06:36,767  INFO    ⏳ Waiting 12s…
+2026-06-26 23:06:48,769  INFO  [11/61] → Parad'Ice Restaurant (+261324060057)
+2026-06-26 23:06:54,625  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:06:54,625  WARNING    ❌ Skipped Parad'Ice Restaurant — not on WhatsApp or error
+2026-06-26 23:06:54,626  INFO    ⏳ Waiting 12s…
+2026-06-26 23:07:06,627  INFO  [12/61] → Hotel restaurant Le Passage Vahiny (+261325800165)
+2026-06-26 23:07:12,817  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:07:12,818  WARNING    ❌ Skipped Hotel restaurant Le Passage Vahiny — not on WhatsApp or error
+2026-06-26 23:07:12,818  INFO    ⏳ Waiting 12s…
+2026-06-26 23:07:24,823  INFO  [13/61] → Bolo - Italian Restaurant & Gelato (+261340322719)
+2026-06-26 23:07:31,060  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:07:31,061  WARNING    ❌ Skipped Bolo - Italian Restaurant & Gelato — not on WhatsApp or error
+2026-06-26 23:07:31,061  INFO    ⏳ Waiting 12s…
+2026-06-26 23:07:43,062  INFO  [14/61] → Restaurant Saify (+261320383902)
+2026-06-26 23:07:49,370  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:07:49,371  WARNING    ❌ Skipped Restaurant Saify — not on WhatsApp or error
+2026-06-26 23:07:49,371  INFO    ⏳ Waiting 12s…
+2026-06-26 23:08:01,374  INFO  [15/61] → Kali...tao (+261322771296)
+2026-06-26 23:08:07,144  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:08:07,145  WARNING    ❌ Skipped Kali...tao — not on WhatsApp or error
+2026-06-26 23:08:07,145  INFO    ⏳ Waiting 12s…
+2026-06-26 23:08:19,146  INFO  [16/61] → PIZZA CHEZ OLIV (+261325261270)
+2026-06-26 23:08:25,257  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:08:25,258  WARNING    ❌ Skipped PIZZA CHEZ OLIV — not on WhatsApp or error
+2026-06-26 23:08:25,258  INFO    ⏳ Waiting 12s…
+2026-06-26 23:08:37,258  INFO  [17/61] → NYA SNACK BAR (+261346137985)
+2026-06-26 23:08:43,478  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:08:43,479  WARNING    ❌ Skipped NYA SNACK BAR — not on WhatsApp or error
+2026-06-26 23:08:43,479  INFO    ⏳ Waiting 12s…
+2026-06-26 23:08:55,484  INFO  [18/61] → La Bodega du Bazar Be (+261346410000)
+2026-06-26 23:09:01,617  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:09:01,617  WARNING    ❌ Skipped La Bodega du Bazar Be — not on WhatsApp or error
+2026-06-26 23:09:01,618  INFO    ⏳ Waiting 12s…
+2026-06-26 23:09:13,623  INFO  [19/61] → VATOBE (+261342797978)
+2026-06-26 23:09:20,045  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:09:20,045  WARNING    ❌ Skipped VATOBE — not on WhatsApp or error
+2026-06-26 23:09:20,045  INFO    ⏳ Waiting 12s…
+2026-06-26 23:09:32,051  INFO  [20/61] → Coco Lodge (+261206223023)
+2026-06-26 23:09:38,368  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:09:38,369  WARNING    ❌ Skipped Coco Lodge — not on WhatsApp or error
+2026-06-26 23:09:38,370  INFO    ⏳ Waiting 12s…
+2026-06-26 23:09:50,423  INFO  [21/61] → Salama Hôtel (+261341508186)
+2026-06-26 23:09:56,876  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:09:56,876  WARNING    ❌ Skipped Salama Hôtel — not on WhatsApp or error
+2026-06-26 23:09:56,876  INFO    ⏳ Waiting 12s…
+2026-06-26 23:10:08,882  INFO  [22/61] → Chez Tranquilllle – Hôtel, Restaurant & Excursions (+261327753079)
+2026-06-26 23:10:14,822  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:10:14,823  WARNING    ❌ Skipped Chez Tranquilllle – Hôtel, Restaurant & Excursions — not on WhatsApp or error
+2026-06-26 23:10:14,823  INFO    ⏳ Waiting 12s…
+2026-06-26 23:10:26,829  INFO  [23/61] → Hôtel Restaurant Tropicana Majunga (+261389524582)
+2026-06-26 23:10:32,646  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:10:32,646  WARNING    ❌ Skipped Hôtel Restaurant Tropicana Majunga — not on WhatsApp or error
+2026-06-26 23:10:32,646  INFO    ⏳ Waiting 12s…
+2026-06-26 23:10:44,652  INFO  [24/61] → RAOOF HOTEL (+261206222753)
+2026-06-26 23:10:50,421  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:10:50,421  WARNING    ❌ Skipped RAOOF HOTEL — not on WhatsApp or error
+2026-06-26 23:10:50,424  INFO    ⏳ Waiting 12s…
+2026-06-26 23:11:02,425  INFO  [25/61] → EDENAKELY HOTEL DE CHARME MAJUNGA (+261325555800)
+2026-06-26 23:11:08,286  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:11:08,287  WARNING    ❌ Skipped EDENAKELY HOTEL DE CHARME MAJUNGA — not on WhatsApp or error
+2026-06-26 23:11:08,287  INFO    ⏳ Waiting 12s…
+2026-06-26 23:11:20,292  INFO  [26/61] → Hotel Akbar (+261206222255)
+2026-06-26 23:11:26,595  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:11:26,595  WARNING    ❌ Skipped Hotel Akbar — not on WhatsApp or error
+2026-06-26 23:11:26,595  INFO    ⏳ Waiting 12s…
+2026-06-26 23:11:38,600  INFO  [27/61] → Hôtel du Phare (+261320338314)
+2026-06-26 23:11:44,857  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:11:44,857  WARNING    ❌ Skipped Hôtel du Phare — not on WhatsApp or error
+2026-06-26 23:11:44,858  INFO    ⏳ Waiting 12s…
+2026-06-26 23:11:56,863  INFO  [28/61] → Skar Hotel (+261344342224)
+2026-06-26 23:12:02,706  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:12:02,706  WARNING    ❌ Skipped Skar Hotel — not on WhatsApp or error
+2026-06-26 23:12:02,706  INFO    ⏳ Waiting 12s…
+2026-06-26 23:12:14,710  INFO  [29/61] → PAP'S Chambre d'Hôtes (+261324561316)
+2026-06-26 23:12:24,062  INFO    ✅ Sent to PAP'S Chambre d'Hôtes
+2026-06-26 23:12:24,064  INFO    ⏳ Waiting 12s…
+2026-06-26 23:12:36,069  INFO  [30/61] → Chez Karon (+261320708147)
+2026-06-26 23:12:42,467  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:12:42,467  WARNING    ❌ Skipped Chez Karon — not on WhatsApp or error
+2026-06-26 23:12:42,468  INFO    ⏳ Waiting 12s…
+2026-06-26 23:12:54,472  INFO  [31/61] → Majesty Palm Resort Majunga (+261346137985)
+2026-06-26 23:13:00,695  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:13:00,695  WARNING    ❌ Skipped Majesty Palm Resort Majunga — not on WhatsApp or error
+2026-06-26 23:13:00,696  INFO    ⏳ Waiting 12s…
+2026-06-26 23:13:12,699  INFO  [32/61] → Zahamotel (+261206223709)
+2026-06-26 23:13:18,967  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:13:18,967  WARNING    ❌ Skipped Zahamotel — not on WhatsApp or error
+2026-06-26 23:13:18,967  INFO    ⏳ Waiting 12s…
+2026-06-26 23:13:30,971  INFO  [33/61] → Hôtel Kismat (+261320473561)
+2026-06-26 23:13:36,699  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:13:36,699  WARNING    ❌ Skipped Hôtel Kismat — not on WhatsApp or error
+2026-06-26 23:13:36,700  INFO    ⏳ Waiting 12s…
+2026-06-26 23:13:48,705  INFO  [34/61] → Hotel Continental (+261326961406)
+2026-06-26 23:13:54,581  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:13:54,581  WARNING    ❌ Skipped Hotel Continental — not on WhatsApp or error
+2026-06-26 23:13:54,582  INFO    ⏳ Waiting 12s…
+2026-06-26 23:14:06,576  INFO  [35/61] → Hotel Bella Maria (+261341009752)
+2026-06-26 23:14:12,901  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:14:12,901  WARNING    ❌ Skipped Hotel Bella Maria — not on WhatsApp or error
+2026-06-26 23:14:12,902  INFO    ⏳ Waiting 12s…
+2026-06-26 23:14:24,894  INFO  [36/61] → Hôtel Les Oliviers (+261383934895)
+2026-06-26 23:14:30,944  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:14:30,946  WARNING    ❌ Skipped Hôtel Les Oliviers — not on WhatsApp or error
+2026-06-26 23:14:30,946  INFO    ⏳ Waiting 12s…
+2026-06-26 23:14:42,945  INFO  [37/61] → L'Orion Bleu Bellatrix (+261+33749644727)
+2026-06-26 23:14:48,618  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:14:48,619  WARNING    ❌ Skipped L'Orion Bleu Bellatrix — not on WhatsApp or error
+2026-06-26 23:14:48,619  INFO    ⏳ Waiting 12s…
+2026-06-26 23:15:00,628  INFO  [38/61] → VATOBE (+261342797978)
+2026-06-26 23:15:06,644  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:15:06,645  WARNING    ❌ Skipped VATOBE — not on WhatsApp or error
+2026-06-26 23:15:06,645  INFO    ⏳ Waiting 12s…
+2026-06-26 23:15:18,648  INFO  [39/61] → CABINET MEDICAL AMBALAVATO (+261327005751)
+2026-06-26 23:15:43,657  WARNING    ❌ Skipped CABINET MEDICAL AMBALAVATO — not on WhatsApp or error
+2026-06-26 23:15:43,657  INFO    ⏳ Waiting 12s…
+2026-06-26 23:15:55,666  INFO  [40/61] → C M A (CABINET MÉDICAL AMBALAVATO ) (+261348685280)
+2026-06-26 23:16:01,666  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:16:01,667  WARNING    ❌ Skipped C M A (CABINET MÉDICAL AMBALAVATO ) — not on WhatsApp or error
+2026-06-26 23:16:01,668  INFO    ⏳ Waiting 12s…
+2026-06-26 23:16:13,673  INFO  [41/61] → Home (+261346412688)
+2026-06-26 23:16:19,449  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:16:19,455  WARNING    ❌ Skipped Home — not on WhatsApp or error
+2026-06-26 23:16:19,456  INFO    ⏳ Waiting 12s…
+2026-06-26 23:16:31,460  INFO  [42/61] → Espace Medical Majunga (+261340217226)
+2026-06-26 23:16:37,793  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:16:37,794  WARNING    ❌ Skipped Espace Medical Majunga — not on WhatsApp or error
+2026-06-26 23:16:37,794  INFO    ⏳ Waiting 12s…
+2026-06-26 23:16:49,796  INFO  [43/61] → Cabinet Médical MANAMPISOA Alakamisy Anosiala (+261344644750)
+2026-06-26 23:16:55,560  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:16:55,560  WARNING    ❌ Skipped Cabinet Médical MANAMPISOA Alakamisy Anosiala — not on WhatsApp or error
+2026-06-26 23:16:55,560  INFO    ⏳ Waiting 12s…
+2026-06-26 23:17:07,563  INFO  [44/61] → Espace Médical Ambodivona (+261340562566)
+2026-06-26 23:17:13,501  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:17:13,501  WARNING    ❌ Skipped Espace Médical Ambodivona — not on WhatsApp or error
+2026-06-26 23:17:13,501  INFO    ⏳ Waiting 12s…
+2026-06-26 23:17:25,505  INFO  [45/61] → Cabinet Medical Avicenne (+261+262269610243)
+2026-06-26 23:17:31,322  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:17:31,322  WARNING    ❌ Skipped Cabinet Medical Avicenne — not on WhatsApp or error
+2026-06-26 23:17:31,322  INFO    ⏳ Waiting 12s…
+2026-06-26 23:17:43,327  INFO  [46/61] → Centre Médical Manampisoa Ankad ifotsy (+261207620855)
+2026-06-26 23:17:49,478  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:17:49,479  WARNING    ❌ Skipped Centre Médical Manampisoa Ankad ifotsy — not on WhatsApp or error
+2026-06-26 23:17:49,479  INFO    ⏳ Waiting 12s…
+2026-06-26 23:18:01,483  INFO  [47/61] → Centre Médical Du RANTO PODIUM (+261341693077)
+2026-06-26 23:18:07,605  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:18:07,606  WARNING    ❌ Skipped Centre Médical Du RANTO PODIUM — not on WhatsApp or error
+2026-06-26 23:18:07,606  INFO    ⏳ Waiting 12s…
+2026-06-26 23:18:19,610  INFO  [48/61] → FUNHECE | Centre Médical - Andraharo (+261384200392)
+2026-06-26 23:18:25,337  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:18:25,338  WARNING    ❌ Skipped FUNHECE | Centre Médical - Andraharo — not on WhatsApp or error
+2026-06-26 23:18:25,338  INFO    ⏳ Waiting 12s…
+2026-06-26 23:18:37,344  INFO  [49/61] → Cabinet médical (+261+262262370057)
+2026-06-26 23:18:43,228  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:18:43,228  WARNING    ❌ Skipped Cabinet médical — not on WhatsApp or error
+2026-06-26 23:18:43,229  INFO    ⏳ Waiting 12s…
+2026-06-26 23:18:55,230  INFO  [50/61] → Clinique Médico-Chirurgicale de Tanjombato (+261202257193)
+2026-06-26 23:19:01,676  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:19:01,676  WARNING    ❌ Skipped Clinique Médico-Chirurgicale de Tanjombato — not on WhatsApp or error
+2026-06-26 23:19:01,676  INFO    ⏳ Waiting 12s…
+2026-06-26 23:19:13,682  INFO  [51/61] → Cabinet Médical 2 RIVES (+261+262262470183)
+2026-06-26 23:19:20,062  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:19:20,062  WARNING    ❌ Skipped Cabinet Médical 2 RIVES — not on WhatsApp or error
+2026-06-26 23:19:20,063  INFO    ⏳ Waiting 12s…
+2026-06-26 23:19:32,068  INFO  [52/61] → Clinique Mère Enfant Antsakaviro (+261341434567)
+2026-06-26 23:19:38,035  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:19:38,035  WARNING    ❌ Skipped Clinique Mère Enfant Antsakaviro — not on WhatsApp or error
+2026-06-26 23:19:38,036  INFO    ⏳ Waiting 12s…
+2026-06-26 23:19:50,036  INFO  [53/61] → Mediaiko (+261381150510)
+2026-06-26 23:20:00,354  INFO    ✅ Sent to Mediaiko
+2026-06-26 23:20:00,356  INFO    ⏳ Waiting 12s…
+2026-06-26 23:20:12,358  INFO  [54/61] → Centre Hospitalier de Soavinandriana (+261202339751)
+2026-06-26 23:20:18,124  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:20:18,124  WARNING    ❌ Skipped Centre Hospitalier de Soavinandriana — not on WhatsApp or error
+2026-06-26 23:20:18,124  INFO    ⏳ Waiting 12s…
+2026-06-26 23:20:30,129  INFO  [55/61] → Clinique Medical Adventist (+261208559382)
+2026-06-26 23:20:36,485  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:20:36,485  WARNING    ❌ Skipped Clinique Medical Adventist — not on WhatsApp or error
+2026-06-26 23:20:36,485  INFO    ⏳ Waiting 12s…
+2026-06-26 23:20:48,490  INFO  [56/61] → Shop Yamine (+261323800180)
+2026-06-26 23:20:54,324  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:20:54,326  WARNING    ❌ Skipped Shop Yamine — not on WhatsApp or error
+2026-06-26 23:20:54,326  INFO    ⏳ Waiting 12s…
+2026-06-26 23:21:06,332  INFO  [57/61] → MAKI AMBOVOALANANA (+261329941128)
+2026-06-26 23:21:13,219  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:21:13,220  WARNING    ❌ Skipped MAKI AMBOVOALANANA — not on WhatsApp or error
+2026-06-26 23:21:13,220  INFO    ⏳ Waiting 12s…
+2026-06-26 23:21:25,224  INFO  [58/61] → DOMOINA MDG (+261329422726)
+2026-06-26 23:21:30,963  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:21:30,964  WARNING    ❌ Skipped DOMOINA MDG — not on WhatsApp or error
+2026-06-26 23:21:30,964  INFO    ⏳ Waiting 12s…
+2026-06-26 23:21:42,970  INFO  [59/61] → KALIDAS RIANNA BIJOUX (+261347301006)
+2026-06-26 23:21:49,158  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:21:49,158  WARNING    ❌ Skipped KALIDAS RIANNA BIJOUX — not on WhatsApp or error
+2026-06-26 23:21:49,158  INFO    ⏳ Waiting 12s…
+2026-06-26 23:22:01,163  INFO  [60/61] → By Grac'Y Boutique (+261386038683)
+2026-06-26 23:22:07,512  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:22:07,512  WARNING    ❌ Skipped By Grac'Y Boutique — not on WhatsApp or error
+2026-06-26 23:22:07,512  INFO    ⏳ Waiting 12s…
+2026-06-26 23:22:19,518  INFO  [61/61] → Boutique Canal Plus - MAHAJANGA (+261324965255)
+2026-06-26 23:22:26,232  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-26 23:22:26,233  WARNING    ❌ Skipped Boutique Canal Plus - MAHAJANGA — not on WhatsApp or error
+2026-06-26 23:22:27,943  INFO  ──────────────────────────────────────────────────
+2026-06-26 23:22:27,944  INFO  📊 DONE — ✅ Sent: 2 | ❌ Not on WA / failed: 59
+2026-06-27 00:41:59,949  WARNING  ⚠️  Skipped 'Bon Appetit' — no number
+2026-06-27 00:41:59,951  WARNING  ⚠️  Skipped 'Restaurant Le P'tit Monde' — no number
+2026-06-27 00:41:59,952  WARNING  ⚠️  Skipped 'Restaurant Malagasy de midi à Ambohimanarina' — no number
+2026-06-27 00:41:59,952  WARNING  ⚠️  Skipped 'Paliss Appart-Hôtel' — no number
+2026-06-27 00:41:59,953  WARNING  ⚠️  Skipped 'Hôtel Belvedere' — no number
+2026-06-27 00:41:59,953  WARNING  ⚠️  Skipped 'Cabinet médical' — no number
+2026-06-27 00:41:59,953  WARNING  ⚠️  Skipped 'Cabinet médical Fanazava' — no number
+2026-06-27 00:41:59,954  WARNING  ⚠️  Skipped 'Cabinet Médical' — no number
+2026-06-27 00:41:59,956  WARNING  ⚠️  Skipped 'Cabinet medical d'Ankadindratombo' — no number
+2026-06-27 00:41:59,957  WARNING  ⚠️  Skipped 'Cabinet médical Dr. Nirina' — no number
+2026-06-27 00:41:59,958  WARNING  ⚠️  Skipped 'Cabinet Médical Dr Vololona Ambohimirary' — no number
+2026-06-27 00:41:59,958  WARNING  ⚠️  Skipped 'Cabinet Médical MITIA' — no number
+2026-06-27 00:41:59,958  WARNING  ⚠️  Skipped 'CABINET MÉDICAL NAH' — no number
+2026-06-27 00:41:59,958  WARNING  ⚠️  Skipped 'CABINET MÉDICAL HERIZO' — no number
+2026-06-27 00:41:59,959  WARNING  ⚠️  Skipped 'Cabinet Médical partenaire AFAFI' — no number
+2026-06-27 00:41:59,960  WARNING  ⚠️  Skipped 'Cabinet Médical MIARO NY AINA' — no number
+2026-06-27 00:41:59,960  WARNING  ⚠️  Skipped 'Dr Mboahangy' — no number
+2026-06-27 00:41:59,964  WARNING  ⚠️  Skipped 'Aur'elle Boutique' — no number
+2026-06-27 00:41:59,965  WARNING  ⚠️  Skipped 'BOUTIQUE MA COLLECTION' — no number
+2026-06-27 00:41:59,966  WARNING  ⚠️  Skipped 'Ayem mode Muslim' — no number
+2026-06-27 00:41:59,969  WARNING  ⚠️  Skipped 'Doux Câlin' — no number
+2026-06-27 00:41:59,969  WARNING  ⚠️  Skipped 'Moda Station' — no number
+2026-06-27 00:41:59,971  WARNING  ⚠️  Skipped 'Boutique traditionnelle' — no number
+2026-06-27 00:41:59,971  WARNING  ⚠️  Skipped 'Boutique IMPACT PC' — no number
+2026-06-27 00:41:59,972  WARNING  ⚠️  Skipped 'BOUTIQUE HERTIE' — no number
+2026-06-27 00:41:59,972  INFO  ✅ 75 leads ready | ⚠️  25 skipped
+2026-06-27 00:42:18,666  INFO  🔐 Waiting for WhatsApp Web (scan QR if needed)…
+2026-06-27 00:42:24,138  INFO  ✅ Logged in!
+2026-06-27 00:42:24,140  INFO  [1/75] → Le Romazava (+261320507000)
+2026-06-27 00:42:32,980  INFO    ✅ Sent to Le Romazava
+2026-06-27 00:42:32,982  INFO    ⏳ Waiting 12s…
+2026-06-27 00:42:44,986  INFO  [2/75] → l'Orient Asian Fusion Restaurant (+261343678888)
+2026-06-27 00:42:51,594  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 00:42:51,596  WARNING    ❌ Skipped l'Orient Asian Fusion Restaurant — not on WhatsApp or error
+2026-06-27 00:42:51,597  INFO    ⏳ Waiting 12s…
+2026-06-27 00:43:03,601  INFO  [3/75] → LE PHARE D'IVANDRY (+261324212325)
+2026-06-27 00:43:13,398  INFO    ✅ Sent to LE PHARE D'IVANDRY
+2026-06-27 00:43:13,400  INFO    ⏳ Waiting 12s…
+2026-06-27 00:43:25,404  INFO  [4/75] → La Plantation (+261341341680)
+2026-06-27 00:43:30,962  WARNING    ⚠️  Popup check error (ignored): Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=149.0.7827.197); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x000000010b738fd8 chromedriver + 7012312
+1   chromedriver                        0x000000010b73083a chromedriver + 6977594
+2   chromedriver                        0x000000010b101445 chromedriver + 492613
+3   chromedriver                        0x000000010b1084ab chromedriver + 521387
+4   chromedriver                        0x000000010b10b09b chromedriver + 532635
+5   chromedriver                        0x000000010b19f761 chromedriver + 1140577
+6   chromedriver                        0x000000010b19e6af chromedriver + 1136303
+7   chromedriver                        0x000000010b148ac4 chromedriver + 785092
+8   chromedriver                        0x000000010b149891 chromedriver + 788625
+9   chromedriver                        0x000000010b6f0ba7 chromedriver + 6716327
+10  chromedriver                        0x000000010b6f502d chromedriver + 6733869
+11  chromedriver                        0x000000010b6d1694 chromedriver + 6588052
+12  chromedriver                        0x000000010b6f5af2 chromedriver + 6736626
+13  chromedriver                        0x000000010b6c1670 chromedriver + 6522480
+14  chromedriver                        0x000000010b71d888 chromedriver + 6899848
+15  chromedriver                        0x000000010b71da1c chromedriver + 6900252
+16  chromedriver                        0x000000010b730451 chromedriver + 6976593
+17  libsystem_pthread.dylib             0x00007ff810f811d3 _pthread_start + 125
+18  libsystem_pthread.dylib             0x00007ff810f7cbd3 thread_start + 15
+
+2026-06-27 00:43:34,123  INFO    ✅ Sent to La Plantation
+2026-06-27 00:43:34,123  INFO    ⏳ Waiting 12s…
+2026-06-27 00:43:46,127  INFO  [5/75] → Le Petit Verdot (+261202239234)
+2026-06-27 00:43:53,636  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 00:43:53,636  WARNING    ❌ Skipped Le Petit Verdot — not on WhatsApp or error
+2026-06-27 00:43:53,636  INFO    ⏳ Waiting 12s…
+2026-06-27 00:44:05,641  INFO  [6/75] → Restaurant Le CITIZEN (+261340572060)
+2026-06-27 00:44:12,471  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 00:44:12,471  WARNING    ❌ Skipped Restaurant Le CITIZEN — not on WhatsApp or error
+2026-06-27 00:44:12,471  INFO    ⏳ Waiting 12s…
+2026-06-27 00:44:24,474  INFO  [7/75] → Les Plats de Mihary - Restaurant (+261330819349)
+2026-06-27 00:44:30,396  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 00:44:30,397  WARNING    ❌ Skipped Les Plats de Mihary - Restaurant — not on WhatsApp or error
+2026-06-27 00:44:30,397  INFO    ⏳ Waiting 12s…
+2026-06-27 00:44:42,400  INFO  [8/75] → Restaurant marmity (+261389073202)
+2026-06-27 00:44:50,619  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 00:44:50,620  WARNING    ❌ Skipped Restaurant marmity — not on WhatsApp or error
+2026-06-27 00:44:50,620  INFO    ⏳ Waiting 12s…
+2026-06-27 00:45:02,716  INFO  [9/75] → restaurant Nico (+261341295828)
+2026-06-27 00:45:09,471  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 00:45:09,471  WARNING    ❌ Skipped restaurant Nico — not on WhatsApp or error
+2026-06-27 00:45:09,472  INFO    ⏳ Waiting 12s…
+2026-06-27 00:45:21,477  INFO  [10/75] → Haka Fy Authentic Restaurant (+261340716206)
+2026-06-27 00:45:27,725  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 00:45:27,726  WARNING    ❌ Skipped Haka Fy Authentic Restaurant — not on WhatsApp or error
+2026-06-27 00:45:27,726  INFO    ⏳ Waiting 12s…
+2026-06-27 00:45:39,727  INFO  [11/75] → Le Rossini (+261380142002)
+2026-06-27 00:45:48,153  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 00:45:48,154  WARNING    ❌ Skipped Le Rossini — not on WhatsApp or error
+2026-06-27 00:45:48,154  INFO    ⏳ Waiting 12s…
+2026-06-27 00:46:00,159  INFO  [12/75] → A'TO Restaurant (+261348336361)
+2026-06-27 00:46:06,510  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 00:46:06,510  WARNING    ❌ Skipped A'TO Restaurant — not on WhatsApp or error
+2026-06-27 00:46:06,510  INFO    ⏳ Waiting 12s…
+2026-06-27 00:46:18,511  INFO  [13/75] → Restaurant La Toque Enchantée (+261344369572)
+2026-06-27 00:46:24,722  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 00:46:24,722  WARNING    ❌ Skipped Restaurant La Toque Enchantée — not on WhatsApp or error
+2026-06-27 00:46:24,723  INFO    ⏳ Waiting 12s…
+2026-06-27 00:46:36,756  INFO  [14/75] → Le Carnivore - Restaurant Bar Lounge (+261385512504)
+2026-06-27 00:46:42,164  WARNING    ⚠️  Popup check error (ignored): Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=149.0.7827.197); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x000000010b738fd8 chromedriver + 7012312
+1   chromedriver                        0x000000010b73083a chromedriver + 6977594
+2   chromedriver                        0x000000010b101445 chromedriver + 492613
+3   chromedriver                        0x000000010b1084ab chromedriver + 521387
+4   chromedriver                        0x000000010b10b09b chromedriver + 532635
+5   chromedriver                        0x000000010b19f761 chromedriver + 1140577
+6   chromedriver                        0x000000010b19e6af chromedriver + 1136303
+7   chromedriver                        0x000000010b148ac4 chromedriver + 785092
+8   chromedriver                        0x000000010b149891 chromedriver + 788625
+9   chromedriver                        0x000000010b6f0ba7 chromedriver + 6716327
+10  chromedriver                        0x000000010b6f502d chromedriver + 6733869
+11  chromedriver                        0x000000010b6d1694 chromedriver + 6588052
+12  chromedriver                        0x000000010b6f5af2 chromedriver + 6736626
+13  chromedriver                        0x000000010b6c1670 chromedriver + 6522480
+14  chromedriver                        0x000000010b71d888 chromedriver + 6899848
+15  chromedriver                        0x000000010b71da1c chromedriver + 6900252
+16  chromedriver                        0x000000010b730451 chromedriver + 6976593
+17  libsystem_pthread.dylib             0x00007ff810f811d3 _pthread_start + 125
+18  libsystem_pthread.dylib             0x00007ff810f7cbd3 thread_start + 15
+
+2026-06-27 00:47:02,680  WARNING    ❌ Skipped Le Carnivore - Restaurant Bar Lounge — not on WhatsApp or error
+2026-06-27 00:47:02,681  INFO    ⏳ Waiting 12s…
+2026-06-27 00:47:14,687  INFO  [15/75] → Zébulon (+261384093851)
+2026-06-27 00:47:21,151  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 00:47:21,152  WARNING    ❌ Skipped Zébulon — not on WhatsApp or error
+2026-06-27 00:47:21,152  INFO    ⏳ Waiting 12s…
+2026-06-27 00:47:33,186  INFO  [16/75] → Jardin de Vaniala (restaurant) (+261344915092)
+2026-06-27 00:47:39,157  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 00:47:39,157  WARNING    ❌ Skipped Jardin de Vaniala (restaurant) — not on WhatsApp or error
+2026-06-27 00:47:39,157  INFO    ⏳ Waiting 12s…
+2026-06-27 00:47:51,162  INFO  [17/75] → Napolitz (+261385611889)
+2026-06-27 00:47:57,474  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 00:47:57,478  WARNING    ❌ Skipped Napolitz — not on WhatsApp or error
+2026-06-27 00:47:57,478  INFO    ⏳ Waiting 12s…
+2026-06-27 00:48:05,172  WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/99a841f4110366c7d9757afed655328c
+2026-06-27 00:48:05,176  WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=50924): Failed to establish a new connection: [Errno 61] Connection refused")': /session/99a841f4110366c7d9757afed655328c
+2026-06-27 00:48:05,178  WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=50924): Failed to establish a new connection: [Errno 61] Connection refused")': /session/99a841f4110366c7d9757afed655328c
+2026-06-27 00:48:05,204  INFO  ──────────────────────────────────────────────────
+2026-06-27 00:48:05,204  INFO  📊 DONE — ✅ Sent: 3 | ❌ Not on WA / failed: 14
+2026-06-27 08:48:12,605  INFO  ⏭️  Already sent to 'Le Romazava' (+261320507000)
+2026-06-27 08:48:12,605  INFO  ⏭️  Already sent to 'l'Orient Asian Fusion Restaurant' (+261343678888)
+2026-06-27 08:48:12,606  WARNING  ⚠️  Skipped 'Bon Appetit' — no number
+2026-06-27 08:48:12,606  INFO  ⏭️  Already sent to 'LE PHARE D'IVANDRY' (+261324212325)
+2026-06-27 08:48:12,606  INFO  ⏭️  Already sent to 'La Plantation' (+261341341680)
+2026-06-27 08:48:12,606  INFO  ⏭️  Already sent to 'Le Petit Verdot' (+261202239234)
+2026-06-27 08:48:12,607  INFO  ⏭️  Already sent to 'Restaurant Le CITIZEN' (+261340572060)
+2026-06-27 08:48:12,607  INFO  ⏭️  Already sent to 'Les Plats de Mihary - Restaurant' (+261330819349)
+2026-06-27 08:48:12,607  INFO  ⏭️  Already sent to 'Restaurant marmity' (+261389073202)
+2026-06-27 08:48:12,607  INFO  ⏭️  Already sent to 'restaurant Nico' (+261341295828)
+2026-06-27 08:48:12,608  INFO  ⏭️  Already sent to 'Haka Fy Authentic Restaurant' (+261340716206)
+2026-06-27 08:48:12,608  INFO  ⏭️  Already sent to 'Le Rossini' (+261380142002)
+2026-06-27 08:48:12,608  INFO  ⏭️  Already sent to 'A'TO Restaurant' (+261348336361)
+2026-06-27 08:48:12,608  INFO  ⏭️  Already sent to 'Restaurant La Toque Enchantée' (+261344369572)
+2026-06-27 08:48:12,608  INFO  ⏭️  Already sent to 'Le Carnivore - Restaurant Bar Lounge' (+261385512504)
+2026-06-27 08:48:12,609  INFO  ⏭️  Already sent to 'Zébulon' (+261384093851)
+2026-06-27 08:48:12,609  INFO  ⏭️  Already sent to 'Jardin de Vaniala (restaurant)' (+261344915092)
+2026-06-27 08:48:12,609  INFO  ⏭️  Already sent to 'Napolitz' (+261385611889)
+2026-06-27 08:48:12,610  WARNING  ⚠️  Skipped 'Restaurant Le P'tit Monde' — no number
+2026-06-27 08:48:12,613  WARNING  ⚠️  Skipped 'Restaurant Malagasy de midi à Ambohimanarina' — no number
+2026-06-27 08:48:12,619  INFO  ⏭️  Already sent to 'Andriana Luxury' (+261387107672)
+2026-06-27 08:48:12,619  WARNING  ⚠️  Skipped 'Paliss Appart-Hôtel' — no number
+2026-06-27 08:48:12,621  WARNING  ⚠️  Skipped 'Hôtel Belvedere' — no number
+2026-06-27 08:48:12,622  INFO  ⏭️  Already sent to 'Cabinet Médical Ampefiloha' (+261341114310)
+2026-06-27 08:48:12,627  WARNING  ⚠️  Skipped 'Cabinet médical' — no number
+2026-06-27 08:48:12,628  INFO  ⏭️  Already sent to 'Espace Médical Ambodivona' (+261340562566)
+2026-06-27 08:48:12,629  INFO  ⏭️  Already sent to 'Cabinet Médical La Bienveillance' (+261342298452)
+2026-06-27 08:48:12,635  WARNING  ⚠️  Skipped 'Cabinet médical Fanazava' — no number
+2026-06-27 08:48:12,635  INFO  ⏭️  Already sent to 'Cabinet Médical - Dr Tombo RAMANDIMBISOA' (+261342242990)
+2026-06-27 08:48:12,636  INFO  ⏭️  Already sent to 'Médical plus' (+261320460205)
+2026-06-27 08:48:12,636  INFO  ⏭️  Already sent to 'Centre Médical Ma Vie Ma Santé' (+261383800040)
+2026-06-27 08:48:12,637  INFO  ⏭️  Already sent to 'Cabinet Médical N&N' (+261387281864)
+2026-06-27 08:48:12,638  INFO  ⏭️  Already sent to 'Cabinet Médical Ophtalmologie Anjarasoa' (+261344015825)
+2026-06-27 08:48:12,638  WARNING  ⚠️  Skipped 'Cabinet Médical' — no number
+2026-06-27 08:48:12,638  INFO  ⏭️  Already sent to 'Cabinet médical VY VATO NY AINA' (+261330507200)
+2026-06-27 08:48:12,639  INFO  ⏭️  Already sent to 'Cabinet Médical Aina' (+261327722217)
+2026-06-27 08:48:12,639  INFO  ⏭️  Already sent to 'Cabinet Médical Dr Fanja' (+261343883609)
+2026-06-27 08:48:12,639  INFO  ⏭️  Already sent to 'Cabinet médical d'Ambodivonikely' (+261349849131)
+2026-06-27 08:48:12,639  INFO  ⏭️  Already sent to 'Cabinet Medical NOHAVY' (+261344889828)
+2026-06-27 08:48:12,641  INFO  ⏭️  Already sent to 'Cabinet Médical Bel'Air Ampandrana' (+261341635802)
+2026-06-27 08:48:12,642  INFO  ⏭️  Already sent to 'Centre Médical Manampisoa Ankad ifotsy' (+261207620855)
+2026-06-27 08:48:12,642  INFO  ⏭️  Already sent to 'Cabinet Médical TOLOTRA' (+261325205969)
+2026-06-27 08:48:12,648  WARNING  ⚠️  Skipped 'Cabinet medical d'Ankadindratombo' — no number
+2026-06-27 08:48:12,654  WARNING  ⚠️  Skipped 'Cabinet médical Dr. Nirina' — no number
+2026-06-27 08:48:12,655  WARNING  ⚠️  Skipped 'Cabinet Médical Dr Vololona Ambohimirary' — no number
+2026-06-27 08:48:12,656  WARNING  ⚠️  Skipped 'Cabinet Médical MITIA' — no number
+2026-06-27 08:48:12,656  WARNING  ⚠️  Skipped 'CABINET MÉDICAL NAH' — no number
+2026-06-27 08:48:12,657  WARNING  ⚠️  Skipped 'CABINET MÉDICAL HERIZO' — no number
+2026-06-27 08:48:12,659  WARNING  ⚠️  Skipped 'Cabinet Médical partenaire AFAFI' — no number
+2026-06-27 08:48:12,664  WARNING  ⚠️  Skipped 'Cabinet Médical MIARO NY AINA' — no number
+2026-06-27 08:48:12,669  WARNING  ⚠️  Skipped 'Dr Mboahangy' — no number
+2026-06-27 08:48:12,670  INFO  ⏭️  Already sent to 'FUNHECE | Centre Médical - Andraharo' (+261384200392)
+2026-06-27 08:48:12,670  INFO  ⏭️  Already sent to 'Boutique ANGIE PRETTY' (+261347730828)
+2026-06-27 08:48:12,671  INFO  ⏭️  Already sent to 'Twenty One Mode' (+261343614619)
+2026-06-27 08:48:12,671  INFO  ⏭️  Already sent to 'Boutique thoni' (+261345731821)
+2026-06-27 08:48:12,671  INFO  ⏭️  Already sent to 'Boutique VK Mada' (+261325023595)
+2026-06-27 08:48:12,672  INFO  ⏭️  Already sent to 'Clic Mora' (+261342311112)
+2026-06-27 08:48:12,672  INFO  ⏭️  Already sent to 'Caravelle MG Concept Store' (+261341433626)
+2026-06-27 08:48:12,672  WARNING  ⚠️  Skipped 'Aur'elle Boutique' — no number
+2026-06-27 08:48:12,672  INFO  ⏭️  Already sent to 'Tripolitsa Boutique' (+261337899900)
+2026-06-27 08:48:12,673  WARNING  ⚠️  Skipped 'BOUTIQUE MA COLLECTION' — no number
+2026-06-27 08:48:12,674  INFO  ⏭️  Already sent to 'Boutique de robe' (+261325071917)
+2026-06-27 08:48:12,674  INFO  ⏭️  Already sent to 'Cos'te Collections' (+261384443917)
+2026-06-27 08:48:12,674  WARNING  ⚠️  Skipped 'Ayem mode Muslim' — no number
+2026-06-27 08:48:12,674  WARNING  ⚠️  Skipped 'Doux Câlin' — no number
+2026-06-27 08:48:12,675  WARNING  ⚠️  Skipped 'Moda Station' — no number
+2026-06-27 08:48:12,679  WARNING  ⚠️  Skipped 'Boutique traditionnelle' — no number
+2026-06-27 08:48:12,681  WARNING  ⚠️  Skipped 'Boutique IMPACT PC' — no number
+2026-06-27 08:48:12,682  WARNING  ⚠️  Skipped 'BOUTIQUE HERTIE' — no number
+2026-06-27 08:48:12,682  INFO  ✅ 31 new leads | ⏭️  69 skipped
+2026-06-27 08:48:51,995  INFO  🔐 Waiting for WhatsApp Web (scan QR if needed)…
+2026-06-27 08:48:56,401  INFO  ✅ Logged in!
+2026-06-27 08:48:56,401  INFO  [1/31] → Nerone Ristorante Italiano (Madagascar) (+261346785946)
+2026-06-27 08:49:04,569  WARNING    ⚠️  Chat not ready (attempt 1), waiting 5s…
+2026-06-27 08:49:09,571  INFO    🔄 Retry 2/3 — reloading chat…
+2026-06-27 08:49:17,536  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 08:49:17,536  WARNING    ❌ Skipped Nerone Ristorante Italiano (Madagascar) — not on WhatsApp or failed
+2026-06-27 08:49:17,537  INFO    ⏳ Waiting 12s…
+2026-06-27 08:49:29,537  INFO  [2/31] → Restaurant O'Frais (+261344410212)
+2026-06-27 08:49:36,835  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 08:49:36,835  WARNING    ❌ Skipped Restaurant O'Frais — not on WhatsApp or failed
+2026-06-27 08:49:36,836  INFO    ⏳ Waiting 12s…
+2026-06-27 08:49:46,552  WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/b63ad24795f79bf73254ad40191f1785
+2026-06-27 08:49:46,553  WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49444): Failed to establish a new connection: [Errno 61] Connection refused")': /session/b63ad24795f79bf73254ad40191f1785
+2026-06-27 08:49:46,591  WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49444): Failed to establish a new connection: [Errno 61] Connection refused")': /session/b63ad24795f79bf73254ad40191f1785
+2026-06-27 08:49:46,684  INFO  ──────────────────────────────────────────────────
+2026-06-27 08:49:46,685  INFO  📊 DONE — ✅ Sent: 0 | ❌ Failed/not on WA: 2
+2026-06-27 08:52:51,457  INFO  ⏭️  Already sent to 'Le Romazava' (+261320507000)
+2026-06-27 08:52:51,458  INFO  ⏭️  Already sent to 'l'Orient Asian Fusion Restaurant' (+261343678888)
+2026-06-27 08:52:51,458  WARNING  ⚠️  Skipped 'Bon Appetit' — no number
+2026-06-27 08:52:51,458  INFO  ⏭️  Already sent to 'LE PHARE D'IVANDRY' (+261324212325)
+2026-06-27 08:52:51,458  INFO  ⏭️  Already sent to 'La Plantation' (+261341341680)
+2026-06-27 08:52:51,458  INFO  ⏭️  Already sent to 'Le Petit Verdot' (+261202239234)
+2026-06-27 08:52:51,459  INFO  ⏭️  Already sent to 'Restaurant Le CITIZEN' (+261340572060)
+2026-06-27 08:52:51,459  INFO  ⏭️  Already sent to 'Les Plats de Mihary - Restaurant' (+261330819349)
+2026-06-27 08:52:51,459  INFO  ⏭️  Already sent to 'Restaurant marmity' (+261389073202)
+2026-06-27 08:52:51,459  INFO  ⏭️  Already sent to 'restaurant Nico' (+261341295828)
+2026-06-27 08:52:51,459  INFO  ⏭️  Already sent to 'Haka Fy Authentic Restaurant' (+261340716206)
+2026-06-27 08:52:51,460  INFO  ⏭️  Already sent to 'Le Rossini' (+261380142002)
+2026-06-27 08:52:51,460  INFO  ⏭️  Already sent to 'A'TO Restaurant' (+261348336361)
+2026-06-27 08:52:51,460  INFO  ⏭️  Already sent to 'Restaurant La Toque Enchantée' (+261344369572)
+2026-06-27 08:52:51,460  INFO  ⏭️  Already sent to 'Le Carnivore - Restaurant Bar Lounge' (+261385512504)
+2026-06-27 08:52:51,460  INFO  ⏭️  Already sent to 'Zébulon' (+261384093851)
+2026-06-27 08:52:51,460  INFO  ⏭️  Already sent to 'Jardin de Vaniala (restaurant)' (+261344915092)
+2026-06-27 08:52:51,461  INFO  ⏭️  Already sent to 'Napolitz' (+261385611889)
+2026-06-27 08:52:51,461  INFO  ⏭️  Already sent to 'Restaurant O'Frais' (+261344410212)
+2026-06-27 08:52:51,461  WARNING  ⚠️  Skipped 'Restaurant Le P'tit Monde' — no number
+2026-06-27 08:52:51,462  WARNING  ⚠️  Skipped 'Restaurant Malagasy de midi à Ambohimanarina' — no number
+2026-06-27 08:52:51,462  INFO  ⏭️  Already sent to 'Andriana Luxury' (+261387107672)
+2026-06-27 08:52:51,462  WARNING  ⚠️  Skipped 'Paliss Appart-Hôtel' — no number
+2026-06-27 08:52:51,462  WARNING  ⚠️  Skipped 'Hôtel Belvedere' — no number
+2026-06-27 08:52:51,462  INFO  ⏭️  Already sent to 'Cabinet Médical Ampefiloha' (+261341114310)
+2026-06-27 08:52:51,463  WARNING  ⚠️  Skipped 'Cabinet médical' — no number
+2026-06-27 08:52:51,467  INFO  ⏭️  Already sent to 'Espace Médical Ambodivona' (+261340562566)
+2026-06-27 08:52:51,468  INFO  ⏭️  Already sent to 'Cabinet Médical La Bienveillance' (+261342298452)
+2026-06-27 08:52:51,468  WARNING  ⚠️  Skipped 'Cabinet médical Fanazava' — no number
+2026-06-27 08:52:51,468  INFO  ⏭️  Already sent to 'Cabinet Médical - Dr Tombo RAMANDIMBISOA' (+261342242990)
+2026-06-27 08:52:51,469  INFO  ⏭️  Already sent to 'Médical plus' (+261320460205)
+2026-06-27 08:52:51,469  INFO  ⏭️  Already sent to 'Centre Médical Ma Vie Ma Santé' (+261383800040)
+2026-06-27 08:52:51,469  INFO  ⏭️  Already sent to 'Cabinet Médical N&N' (+261387281864)
+2026-06-27 08:52:51,471  INFO  ⏭️  Already sent to 'Cabinet Médical Ophtalmologie Anjarasoa' (+261344015825)
+2026-06-27 08:52:51,472  WARNING  ⚠️  Skipped 'Cabinet Médical' — no number
+2026-06-27 08:52:51,474  INFO  ⏭️  Already sent to 'Cabinet médical VY VATO NY AINA' (+261330507200)
+2026-06-27 08:52:51,476  INFO  ⏭️  Already sent to 'Cabinet Médical Aina' (+261327722217)
+2026-06-27 08:52:51,476  INFO  ⏭️  Already sent to 'Cabinet Médical Dr Fanja' (+261343883609)
+2026-06-27 08:52:51,477  INFO  ⏭️  Already sent to 'Cabinet médical d'Ambodivonikely' (+261349849131)
+2026-06-27 08:52:51,477  INFO  ⏭️  Already sent to 'Cabinet Medical NOHAVY' (+261344889828)
+2026-06-27 08:52:51,478  INFO  ⏭️  Already sent to 'Cabinet Médical Bel'Air Ampandrana' (+261341635802)
+2026-06-27 08:52:51,478  INFO  ⏭️  Already sent to 'Centre Médical Manampisoa Ankad ifotsy' (+261207620855)
+2026-06-27 08:52:51,478  INFO  ⏭️  Already sent to 'Cabinet Médical TOLOTRA' (+261325205969)
+2026-06-27 08:52:51,478  WARNING  ⚠️  Skipped 'Cabinet medical d'Ankadindratombo' — no number
+2026-06-27 08:52:51,478  WARNING  ⚠️  Skipped 'Cabinet médical Dr. Nirina' — no number
+2026-06-27 08:52:51,479  WARNING  ⚠️  Skipped 'Cabinet Médical Dr Vololona Ambohimirary' — no number
+2026-06-27 08:52:51,479  WARNING  ⚠️  Skipped 'Cabinet Médical MITIA' — no number
+2026-06-27 08:52:51,479  WARNING  ⚠️  Skipped 'CABINET MÉDICAL NAH' — no number
+2026-06-27 08:52:51,479  WARNING  ⚠️  Skipped 'CABINET MÉDICAL HERIZO' — no number
+2026-06-27 08:52:51,480  WARNING  ⚠️  Skipped 'Cabinet Médical partenaire AFAFI' — no number
+2026-06-27 08:52:51,480  WARNING  ⚠️  Skipped 'Cabinet Médical MIARO NY AINA' — no number
+2026-06-27 08:52:51,481  WARNING  ⚠️  Skipped 'Dr Mboahangy' — no number
+2026-06-27 08:52:51,481  INFO  ⏭️  Already sent to 'FUNHECE | Centre Médical - Andraharo' (+261384200392)
+2026-06-27 08:52:51,481  INFO  ⏭️  Already sent to 'Boutique ANGIE PRETTY' (+261347730828)
+2026-06-27 08:52:51,481  INFO  ⏭️  Already sent to 'Twenty One Mode' (+261343614619)
+2026-06-27 08:52:51,482  INFO  ⏭️  Already sent to 'Boutique thoni' (+261345731821)
+2026-06-27 08:52:51,483  INFO  ⏭️  Already sent to 'Boutique VK Mada' (+261325023595)
+2026-06-27 08:52:51,484  INFO  ⏭️  Already sent to 'Clic Mora' (+261342311112)
+2026-06-27 08:52:51,484  INFO  ⏭️  Already sent to 'Caravelle MG Concept Store' (+261341433626)
+2026-06-27 08:52:51,485  WARNING  ⚠️  Skipped 'Aur'elle Boutique' — no number
+2026-06-27 08:52:51,485  INFO  ⏭️  Already sent to 'Tripolitsa Boutique' (+261337899900)
+2026-06-27 08:52:51,485  WARNING  ⚠️  Skipped 'BOUTIQUE MA COLLECTION' — no number
+2026-06-27 08:52:51,485  INFO  ⏭️  Already sent to 'Boutique de robe' (+261325071917)
+2026-06-27 08:52:51,486  INFO  ⏭️  Already sent to 'Cos'te Collections' (+261384443917)
+2026-06-27 08:52:51,486  WARNING  ⚠️  Skipped 'Ayem mode Muslim' — no number
+2026-06-27 08:52:51,486  WARNING  ⚠️  Skipped 'Doux Câlin' — no number
+2026-06-27 08:52:51,486  WARNING  ⚠️  Skipped 'Moda Station' — no number
+2026-06-27 08:52:51,487  WARNING  ⚠️  Skipped 'Boutique traditionnelle' — no number
+2026-06-27 08:52:51,488  WARNING  ⚠️  Skipped 'Boutique IMPACT PC' — no number
+2026-06-27 08:52:51,489  WARNING  ⚠️  Skipped 'BOUTIQUE HERTIE' — no number
+2026-06-27 08:52:51,489  INFO  ✅ 30 new leads | ⏭️  70 skipped
+2026-06-27 08:52:57,179  INFO  🔐 Waiting for WhatsApp Web (scan QR if needed)…
+2026-06-27 08:53:01,172  INFO  ✅ Logged in!
+2026-06-27 08:53:01,172  INFO  [1/30] → Nerone Ristorante Italiano (Madagascar) (+261346785946)
+2026-06-27 08:53:09,091  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 08:53:09,091  WARNING    ❌ Skipped Nerone Ristorante Italiano (Madagascar) — not on WhatsApp or failed
+2026-06-27 08:53:09,092  INFO    ⏳ Waiting 12s…
+2026-06-27 08:53:21,092  INFO  [2/30] → TOKOTELO RESTAURANT - SPECIALITES MALAGASY (+261385906608)
+2026-06-27 08:53:28,427  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 08:53:28,427  WARNING    ❌ Skipped TOKOTELO RESTAURANT - SPECIALITES MALAGASY — not on WhatsApp or failed
+2026-06-27 08:53:28,427  INFO    ⏳ Waiting 12s…
+2026-06-27 08:53:40,430  INFO  [3/30] → Restaurant Mandala (+261386407724)
+2026-06-27 08:53:48,161  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 08:53:48,161  WARNING    ❌ Skipped Restaurant Mandala — not on WhatsApp or failed
+2026-06-27 08:53:48,161  INFO    ⏳ Waiting 12s…
+2026-06-27 08:54:00,167  INFO  [4/30] → La Compagnie des Voyageurs - Restaurant (+261340813030)
+2026-06-27 08:54:07,388  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 08:54:07,389  WARNING    ❌ Skipped La Compagnie des Voyageurs - Restaurant — not on WhatsApp or failed
+2026-06-27 08:54:07,389  INFO    ⏳ Waiting 12s…
+2026-06-27 08:54:19,394  INFO  [5/30] → O2 Resto lounge Bar (+261331100000)
+2026-06-27 08:54:46,482  WARNING    ⚠️  Message box not ready (attempt 1), retrying in 5s…
+2026-06-27 08:54:51,484  INFO    🔄 Retry 2/3…
+2026-06-27 08:54:59,401  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 08:54:59,402  WARNING    ❌ Skipped O2 Resto lounge Bar — not on WhatsApp or failed
+2026-06-27 08:54:59,403  INFO    ⏳ Waiting 12s…
+2026-06-27 08:55:11,404  INFO  [6/30] → Barakay (+261382649590)
+2026-06-27 08:55:18,718  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 08:55:18,719  WARNING    ❌ Skipped Barakay — not on WhatsApp or failed
+2026-06-27 08:55:18,720  INFO    ⏳ Waiting 12s…
+2026-06-27 08:55:30,725  INFO  [7/30] → The Peace Restaurant (+261345332815)
+2026-06-27 08:55:39,232  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 08:55:39,233  WARNING    ❌ Skipped The Peace Restaurant — not on WhatsApp or failed
+2026-06-27 08:55:39,233  INFO    ⏳ Waiting 12s…
+2026-06-27 08:55:51,237  INFO  [8/30] → Vary sy Laoka Restaurant (+261340170960)
+2026-06-27 08:55:54,080  WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/07313ae6f9f5171baacb14ec25414acc
+2026-06-27 08:55:54,082  WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49521): Failed to establish a new connection: [Errno 61] Connection refused")': /session/07313ae6f9f5171baacb14ec25414acc
+2026-06-27 08:55:54,084  WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49521): Failed to establish a new connection: [Errno 61] Connection refused")': /session/07313ae6f9f5171baacb14ec25414acc
+2026-06-27 08:55:54,086  INFO  ──────────────────────────────────────────────────
+2026-06-27 08:55:54,086  INFO  📊 DONE — ✅ Sent: 0 | ❌ Failed/not on WA: 7
+2026-06-27 08:56:16,375  INFO  ⏭️  Already sent to 'Le Romazava' (+261320507000)
+2026-06-27 08:56:16,376  INFO  ⏭️  Already sent to 'l'Orient Asian Fusion Restaurant' (+261343678888)
+2026-06-27 08:56:16,376  WARNING  ⚠️  Skipped 'Bon Appetit' — no number
+2026-06-27 08:56:16,376  INFO  ⏭️  Already sent to 'LE PHARE D'IVANDRY' (+261324212325)
+2026-06-27 08:56:16,376  INFO  ⏭️  Already sent to 'La Plantation' (+261341341680)
+2026-06-27 08:56:16,377  INFO  ⏭️  Already sent to 'Le Petit Verdot' (+261202239234)
+2026-06-27 08:56:16,377  INFO  ⏭️  Already sent to 'Restaurant Le CITIZEN' (+261340572060)
+2026-06-27 08:56:16,377  INFO  ⏭️  Already sent to 'Les Plats de Mihary - Restaurant' (+261330819349)
+2026-06-27 08:56:16,377  INFO  ⏭️  Already sent to 'Restaurant marmity' (+261389073202)
+2026-06-27 08:56:16,378  INFO  ⏭️  Already sent to 'restaurant Nico' (+261341295828)
+2026-06-27 08:56:16,378  INFO  ⏭️  Already sent to 'Haka Fy Authentic Restaurant' (+261340716206)
+2026-06-27 08:56:16,378  INFO  ⏭️  Already sent to 'Le Rossini' (+261380142002)
+2026-06-27 08:56:16,378  INFO  ⏭️  Already sent to 'A'TO Restaurant' (+261348336361)
+2026-06-27 08:56:16,378  INFO  ⏭️  Already sent to 'Restaurant La Toque Enchantée' (+261344369572)
+2026-06-27 08:56:16,378  INFO  ⏭️  Already sent to 'Le Carnivore - Restaurant Bar Lounge' (+261385512504)
+2026-06-27 08:56:16,379  INFO  ⏭️  Already sent to 'Zébulon' (+261384093851)
+2026-06-27 08:56:16,379  INFO  ⏭️  Already sent to 'Jardin de Vaniala (restaurant)' (+261344915092)
+2026-06-27 08:56:16,379  INFO  ⏭️  Already sent to 'Napolitz' (+261385611889)
+2026-06-27 08:56:16,379  INFO  ⏭️  Already sent to 'Nerone Ristorante Italiano (Madagascar)' (+261346785946)
+2026-06-27 08:56:16,380  INFO  ⏭️  Already sent to 'Restaurant O'Frais' (+261344410212)
+2026-06-27 08:56:16,380  INFO  ⏭️  Already sent to 'TOKOTELO RESTAURANT - SPECIALITES MALAGASY' (+261385906608)
+2026-06-27 08:56:16,380  INFO  ⏭️  Already sent to 'Restaurant Mandala' (+261386407724)
+2026-06-27 08:56:16,382  INFO  ⏭️  Already sent to 'La Compagnie des Voyageurs - Restaurant' (+261340813030)
+2026-06-27 08:56:16,399  INFO  ⏭️  Already sent to 'O2 Resto lounge Bar' (+261331100000)
+2026-06-27 08:56:16,399  WARNING  ⚠️  Skipped 'Restaurant Le P'tit Monde' — no number
+2026-06-27 08:56:16,399  INFO  ⏭️  Already sent to 'Barakay' (+261382649590)
+2026-06-27 08:56:16,400  INFO  ⏭️  Already sent to 'The Peace Restaurant' (+261345332815)
+2026-06-27 08:56:16,400  WARNING  ⚠️  Skipped 'Restaurant Malagasy de midi à Ambohimanarina' — no number
+2026-06-27 08:56:16,401  INFO  ⏭️  Already sent to 'Andriana Luxury' (+261387107672)
+2026-06-27 08:56:16,401  WARNING  ⚠️  Skipped 'Paliss Appart-Hôtel' — no number
+2026-06-27 08:56:16,401  WARNING  ⚠️  Skipped 'Hôtel Belvedere' — no number
+2026-06-27 08:56:16,402  INFO  ⏭️  Already sent to 'Cabinet Médical Ampefiloha' (+261341114310)
+2026-06-27 08:56:16,402  WARNING  ⚠️  Skipped 'Cabinet médical' — no number
+2026-06-27 08:56:16,402  INFO  ⏭️  Already sent to 'Espace Médical Ambodivona' (+261340562566)
+2026-06-27 08:56:16,402  INFO  ⏭️  Already sent to 'Cabinet Médical La Bienveillance' (+261342298452)
+2026-06-27 08:56:16,402  WARNING  ⚠️  Skipped 'Cabinet médical Fanazava' — no number
+2026-06-27 08:56:16,403  INFO  ⏭️  Already sent to 'Cabinet Médical - Dr Tombo RAMANDIMBISOA' (+261342242990)
+2026-06-27 08:56:16,403  INFO  ⏭️  Already sent to 'Médical plus' (+261320460205)
+2026-06-27 08:56:16,403  INFO  ⏭️  Already sent to 'Centre Médical Ma Vie Ma Santé' (+261383800040)
+2026-06-27 08:56:16,403  INFO  ⏭️  Already sent to 'Cabinet Médical N&N' (+261387281864)
+2026-06-27 08:56:16,404  INFO  ⏭️  Already sent to 'Cabinet Médical Ophtalmologie Anjarasoa' (+261344015825)
+2026-06-27 08:56:16,406  WARNING  ⚠️  Skipped 'Cabinet Médical' — no number
+2026-06-27 08:56:16,409  INFO  ⏭️  Already sent to 'Cabinet médical VY VATO NY AINA' (+261330507200)
+2026-06-27 08:56:16,410  INFO  ⏭️  Already sent to 'Cabinet Médical Aina' (+261327722217)
+2026-06-27 08:56:16,411  INFO  ⏭️  Already sent to 'Cabinet Médical Dr Fanja' (+261343883609)
+2026-06-27 08:56:16,413  INFO  ⏭️  Already sent to 'Cabinet médical d'Ambodivonikely' (+261349849131)
+2026-06-27 08:56:16,413  INFO  ⏭️  Already sent to 'Cabinet Medical NOHAVY' (+261344889828)
+2026-06-27 08:56:16,413  INFO  ⏭️  Already sent to 'Cabinet Médical Bel'Air Ampandrana' (+261341635802)
+2026-06-27 08:56:16,413  INFO  ⏭️  Already sent to 'Centre Médical Manampisoa Ankad ifotsy' (+261207620855)
+2026-06-27 08:56:16,414  INFO  ⏭️  Already sent to 'Cabinet Médical TOLOTRA' (+261325205969)
+2026-06-27 08:56:16,414  WARNING  ⚠️  Skipped 'Cabinet medical d'Ankadindratombo' — no number
+2026-06-27 08:56:16,414  WARNING  ⚠️  Skipped 'Cabinet médical Dr. Nirina' — no number
+2026-06-27 08:56:16,414  WARNING  ⚠️  Skipped 'Cabinet Médical Dr Vololona Ambohimirary' — no number
+2026-06-27 08:56:16,414  WARNING  ⚠️  Skipped 'Cabinet Médical MITIA' — no number
+2026-06-27 08:56:16,415  WARNING  ⚠️  Skipped 'CABINET MÉDICAL NAH' — no number
+2026-06-27 08:56:16,415  WARNING  ⚠️  Skipped 'CABINET MÉDICAL HERIZO' — no number
+2026-06-27 08:56:16,415  WARNING  ⚠️  Skipped 'Cabinet Médical partenaire AFAFI' — no number
+2026-06-27 08:56:16,416  WARNING  ⚠️  Skipped 'Cabinet Médical MIARO NY AINA' — no number
+2026-06-27 08:56:16,416  WARNING  ⚠️  Skipped 'Dr Mboahangy' — no number
+2026-06-27 08:56:16,416  INFO  ⏭️  Already sent to 'FUNHECE | Centre Médical - Andraharo' (+261384200392)
+2026-06-27 08:56:16,416  INFO  ⏭️  Already sent to 'Boutique ANGIE PRETTY' (+261347730828)
+2026-06-27 08:56:16,416  INFO  ⏭️  Already sent to 'Twenty One Mode' (+261343614619)
+2026-06-27 08:56:16,417  INFO  ⏭️  Already sent to 'Boutique thoni' (+261345731821)
+2026-06-27 08:56:16,417  INFO  ⏭️  Already sent to 'Boutique VK Mada' (+261325023595)
+2026-06-27 08:56:16,417  INFO  ⏭️  Already sent to 'Clic Mora' (+261342311112)
+2026-06-27 08:56:16,417  INFO  ⏭️  Already sent to 'Caravelle MG Concept Store' (+261341433626)
+2026-06-27 08:56:16,417  WARNING  ⚠️  Skipped 'Aur'elle Boutique' — no number
+2026-06-27 08:56:16,417  INFO  ⏭️  Already sent to 'Tripolitsa Boutique' (+261337899900)
+2026-06-27 08:56:16,421  WARNING  ⚠️  Skipped 'BOUTIQUE MA COLLECTION' — no number
+2026-06-27 08:56:16,421  INFO  ⏭️  Already sent to 'Boutique de robe' (+261325071917)
+2026-06-27 08:56:16,422  INFO  ⏭️  Already sent to 'Cos'te Collections' (+261384443917)
+2026-06-27 08:56:16,422  WARNING  ⚠️  Skipped 'Ayem mode Muslim' — no number
+2026-06-27 08:56:16,423  WARNING  ⚠️  Skipped 'Doux Câlin' — no number
+2026-06-27 08:56:16,426  WARNING  ⚠️  Skipped 'Moda Station' — no number
+2026-06-27 08:56:16,428  WARNING  ⚠️  Skipped 'Boutique traditionnelle' — no number
+2026-06-27 08:56:16,430  WARNING  ⚠️  Skipped 'Boutique IMPACT PC' — no number
+2026-06-27 08:56:16,431  WARNING  ⚠️  Skipped 'BOUTIQUE HERTIE' — no number
+2026-06-27 08:56:16,431  INFO  ✅ 23 new leads | ⏭️  77 skipped
+2026-06-27 08:56:32,558  INFO  🔐 Waiting for WhatsApp Web (scan QR if needed)…
+2026-06-27 08:56:37,324  INFO  ✅ Logged in!
+2026-06-27 08:56:37,324  INFO  [1/23] → Vary sy Laoka Restaurant (+261340170960)
+2026-06-27 08:56:44,743  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 08:56:44,743  WARNING    ❌ Skipped Vary sy Laoka Restaurant — not on WhatsApp or failed
+2026-06-27 08:56:44,744  INFO    ⏳ Waiting 12s…
+2026-06-27 08:56:56,748  INFO  [2/23] → Streety (+261341062798)
+2026-06-27 08:57:04,125  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 08:57:04,126  WARNING    ❌ Skipped Streety — not on WhatsApp or failed
+2026-06-27 08:57:04,127  INFO    ⏳ Waiting 12s…
+2026-06-27 08:57:16,130  INFO  [3/23] → Modern Medical Mihary Soa (+261202256257)
+2026-06-27 08:57:23,027  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 08:57:23,027  WARNING    ❌ Skipped Modern Medical Mihary Soa — not on WhatsApp or failed
+2026-06-27 08:57:23,027  INFO    ⏳ Waiting 12s…
+2026-06-27 08:57:35,029  INFO  [4/23] → Cabinet Médical Henri Andrianjafy (+261320460750)
+2026-06-27 08:57:43,144  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 08:57:43,146  WARNING    ❌ Skipped Cabinet Médical Henri Andrianjafy — not on WhatsApp or failed
+2026-06-27 08:57:43,147  INFO    ⏳ Waiting 12s…
+2026-06-27 08:57:55,148  INFO  [5/23] → Cabinet Medical - Dr Edmondine Ratovomanana (+261331230755)
+2026-06-27 08:58:03,621  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 08:58:03,621  WARNING    ❌ Skipped Cabinet Medical - Dr Edmondine Ratovomanana — not on WhatsApp or failed
+2026-06-27 08:58:03,621  INFO    ⏳ Waiting 12s…
+2026-06-27 08:58:15,622  INFO  [6/23] → Cabinet Médical et Dentaire Ivandry (+261340397615)
+2026-06-27 08:58:42,730  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 08:58:42,732  WARNING    ❌ Skipped Cabinet Médical et Dentaire Ivandry — not on WhatsApp or failed
+2026-06-27 08:58:42,734  INFO    ⏳ Waiting 12s…
+2026-06-27 08:58:54,734  INFO  [7/23] → Docteur Florence (+261320790110)
+2026-06-27 08:59:01,942  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 08:59:01,944  WARNING    ❌ Skipped Docteur Florence — not on WhatsApp or failed
+2026-06-27 08:59:01,945  INFO    ⏳ Waiting 12s…
+2026-06-27 08:59:13,945  INFO  [8/23] → Cabinet d'échographie Anjanahary (+261349447958)
+2026-06-27 08:59:22,719  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 08:59:22,720  WARNING    ❌ Skipped Cabinet d'échographie Anjanahary — not on WhatsApp or failed
+2026-06-27 08:59:22,720  INFO    ⏳ Waiting 12s…
+2026-06-27 08:59:34,724  INFO  [9/23] → CABINET MÉDICAL RATSIMAMANGA (+261320224746)
+2026-06-27 08:59:54,767  INFO    → Clicked Send button
+2026-06-27 08:59:54,779  INFO    ✅ Sent to CABINET MÉDICAL RATSIMAMANGA
+2026-06-27 08:59:54,779  INFO    ⏳ Waiting 12s…
+2026-06-27 09:00:06,780  INFO  [10/23] → CABINET DE SOINS D' URGENCES "HERY'AINA" (+261377450957)
+2026-06-27 09:00:13,473  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 09:00:13,474  WARNING    ❌ Skipped CABINET DE SOINS D' URGENCES "HERY'AINA" — not on WhatsApp or failed
+2026-06-27 09:00:13,475  INFO    ⏳ Waiting 12s…
+2026-06-27 09:00:25,477  INFO  [11/23] → Cabinet Médical Gynécologie et Pédiatrie 67 Ha (+261340122032)
+2026-06-27 09:00:32,930  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 09:00:32,930  WARNING    ❌ Skipped Cabinet Médical Gynécologie et Pédiatrie 67 Ha — not on WhatsApp or failed
+2026-06-27 09:00:32,931  INFO    ⏳ Waiting 12s…
+2026-06-27 09:00:44,934  INFO  [12/23] → FL Boutique (+261327577727)
+2026-06-27 09:00:52,220  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 09:00:52,221  WARNING    ❌ Skipped FL Boutique — not on WhatsApp or failed
+2026-06-27 09:00:52,221  INFO    ⏳ Waiting 12s…
+2026-06-27 09:01:04,252  INFO  [13/23] → Ialy et Iris (+261202224270)
+2026-06-27 09:01:11,807  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 09:01:11,808  WARNING    ❌ Skipped Ialy et Iris — not on WhatsApp or failed
+2026-06-27 09:01:11,808  INFO    ⏳ Waiting 12s…
+2026-06-27 09:01:23,811  INFO  [14/23] → Gabi's Shop (+261342868319)
+2026-06-27 09:01:33,019  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 09:01:33,024  WARNING    ❌ Skipped Gabi's Shop — not on WhatsApp or failed
+2026-06-27 09:01:33,039  INFO    ⏳ Waiting 12s…
+2026-06-27 09:01:45,044  INFO  [15/23] → Guy outfit.Madagascar (+261344681273)
+2026-06-27 09:01:52,951  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 09:01:52,952  WARNING    ❌ Skipped Guy outfit.Madagascar — not on WhatsApp or failed
+2026-06-27 09:01:52,952  INFO    ⏳ Waiting 12s…
+2026-06-27 09:02:04,957  INFO  [16/23] → Time Boutique (+261345240454)
+2026-06-27 09:02:12,033  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 09:02:12,034  WARNING    ❌ Skipped Time Boutique — not on WhatsApp or failed
+2026-06-27 09:02:12,034  INFO    ⏳ Waiting 12s…
+2026-06-27 09:02:24,039  INFO  [17/23] → Mum and Me (+261381490070)
+2026-06-27 09:02:31,658  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 09:02:31,659  WARNING    ❌ Skipped Mum and Me — not on WhatsApp or failed
+2026-06-27 09:02:31,659  INFO    ⏳ Waiting 12s…
+2026-06-27 09:02:43,662  INFO  [18/23] → Mofoko, Boutique Mahamasina (+261320511876)
+2026-06-27 09:03:12,119  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 09:03:12,119  WARNING    ❌ Skipped Mofoko, Boutique Mahamasina — not on WhatsApp or failed
+2026-06-27 09:03:12,120  INFO    ⏳ Waiting 12s…
+2026-06-27 09:03:24,120  INFO  [19/23] → Lovencie Boutique (+261342560286)
+2026-06-27 09:03:31,396  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 09:03:31,396  WARNING    ❌ Skipped Lovencie Boutique — not on WhatsApp or failed
+2026-06-27 09:03:31,397  INFO    ⏳ Waiting 12s…
+2026-06-27 09:03:43,399  INFO  [20/23] → Jumelles Boutique (+261324759299)
+2026-06-27 09:03:52,115  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 09:03:52,115  WARNING    ❌ Skipped Jumelles Boutique — not on WhatsApp or failed
+2026-06-27 09:03:52,115  INFO    ⏳ Waiting 12s…
+2026-06-27 09:04:04,116  INFO  [21/23] → Fofolle Boutique (+261381657233)
+2026-06-27 09:04:11,827  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 09:04:11,828  WARNING    ❌ Skipped Fofolle Boutique — not on WhatsApp or failed
+2026-06-27 09:04:11,828  INFO    ⏳ Waiting 12s…
+2026-06-27 09:04:23,828  INFO  [22/23] → Amaray Concept Store (+261381318671)
+2026-06-27 09:04:31,304  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 09:04:31,304  WARNING    ❌ Skipped Amaray Concept Store — not on WhatsApp or failed
+2026-06-27 09:04:31,305  INFO    ⏳ Waiting 12s…
+2026-06-27 09:04:43,307  INFO  [23/23] → SMILE BOUTIQUE (+261385637106)
+2026-06-27 09:04:51,247  WARNING    ⚠️  Popup dismissed — number not on WhatsApp
+2026-06-27 09:04:51,249  WARNING    ❌ Skipped SMILE BOUTIQUE — not on WhatsApp or failed
+2026-06-27 09:04:51,998  INFO  ──────────────────────────────────────────────────
+2026-06-27 09:04:51,998  INFO  📊 DONE — ✅ Sent: 1 | ❌ Failed/not on WA: 22
+2026-06-29 10:22:39,880  INFO  ⏭️  Already sent to 'Le Romazava' (+261320507000)
+2026-06-29 10:22:39,881  INFO  ⏭️  Already sent to 'l'Orient Asian Fusion Restaurant' (+261343678888)
+2026-06-29 10:22:39,882  WARNING  ⚠️  Skipped 'Bon Appetit' — no number
+2026-06-29 10:22:39,882  INFO  ⏭️  Already sent to 'LE PHARE D'IVANDRY' (+261324212325)
+2026-06-29 10:22:39,883  INFO  ⏭️  Already sent to 'La Plantation' (+261341341680)
+2026-06-29 10:22:39,883  INFO  ⏭️  Already sent to 'Le Petit Verdot' (+261202239234)
+2026-06-29 10:22:39,883  INFO  ⏭️  Already sent to 'Restaurant Le CITIZEN' (+261340572060)
+2026-06-29 10:22:39,883  INFO  ⏭️  Already sent to 'Les Plats de Mihary - Restaurant' (+261330819349)
+2026-06-29 10:22:39,884  INFO  ⏭️  Already sent to 'Restaurant marmity' (+261389073202)
+2026-06-29 10:22:39,884  INFO  ⏭️  Already sent to 'restaurant Nico' (+261341295828)
+2026-06-29 10:22:39,884  INFO  ⏭️  Already sent to 'Haka Fy Authentic Restaurant' (+261340716206)
+2026-06-29 10:22:39,884  INFO  ⏭️  Already sent to 'Le Rossini' (+261380142002)
+2026-06-29 10:22:39,885  INFO  ⏭️  Already sent to 'A'TO Restaurant' (+261348336361)
+2026-06-29 10:22:39,885  INFO  ⏭️  Already sent to 'Restaurant La Toque Enchantée' (+261344369572)
+2026-06-29 10:22:39,885  INFO  ⏭️  Already sent to 'Le Carnivore - Restaurant Bar Lounge' (+261385512504)
+2026-06-29 10:22:39,885  INFO  ⏭️  Already sent to 'Zébulon' (+261384093851)
+2026-06-29 10:22:39,886  INFO  ⏭️  Already sent to 'Jardin de Vaniala (restaurant)' (+261344915092)
+2026-06-29 10:22:39,886  INFO  ⏭️  Already sent to 'Napolitz' (+261385611889)
+2026-06-29 10:22:39,886  INFO  ⏭️  Already sent to 'Nerone Ristorante Italiano (Madagascar)' (+261346785946)
+2026-06-29 10:22:39,886  INFO  ⏭️  Already sent to 'Restaurant O'Frais' (+261344410212)
+2026-06-29 10:22:39,892  INFO  ⏭️  Already sent to 'TOKOTELO RESTAURANT - SPECIALITES MALAGASY' (+261385906608)
+2026-06-29 10:22:39,893  INFO  ⏭️  Already sent to 'Restaurant Mandala' (+261386407724)
+2026-06-29 10:22:39,893  INFO  ⏭️  Already sent to 'La Compagnie des Voyageurs - Restaurant' (+261340813030)
+2026-06-29 10:22:39,895  INFO  ⏭️  Already sent to 'O2 Resto lounge Bar' (+261331100000)
+2026-06-29 10:22:39,896  WARNING  ⚠️  Skipped 'Restaurant Le P'tit Monde' — no number
+2026-06-29 10:22:39,896  INFO  ⏭️  Already sent to 'Barakay' (+261382649590)
+2026-06-29 10:22:39,897  INFO  ⏭️  Already sent to 'The Peace Restaurant' (+261345332815)
+2026-06-29 10:22:39,897  INFO  ⏭️  Already sent to 'Vary sy Laoka Restaurant' (+261340170960)
+2026-06-29 10:22:39,897  INFO  ⏭️  Already sent to 'Streety' (+261341062798)
+2026-06-29 10:22:39,898  WARNING  ⚠️  Skipped 'Restaurant Malagasy de midi à Ambohimanarina' — no number
+2026-06-29 10:22:39,898  INFO  ⏭️  Already sent to 'Andriana Luxury' (+261387107672)
+2026-06-29 10:22:39,898  WARNING  ⚠️  Skipped 'Paliss Appart-Hôtel' — no number
+2026-06-29 10:22:39,899  WARNING  ⚠️  Skipped 'Hôtel Belvedere' — no number
+2026-06-29 10:22:39,919  INFO  ⏭️  Already sent to 'Cabinet Médical Ampefiloha' (+261341114310)
+2026-06-29 10:22:39,919  WARNING  ⚠️  Skipped 'Cabinet médical' — no number
+2026-06-29 10:22:39,920  INFO  ⏭️  Already sent to 'Espace Médical Ambodivona' (+261340562566)
+2026-06-29 10:22:39,920  INFO  ⏭️  Already sent to 'Cabinet Médical La Bienveillance' (+261342298452)
+2026-06-29 10:22:39,920  WARNING  ⚠️  Skipped 'Cabinet médical Fanazava' — no number
+2026-06-29 10:22:39,920  INFO  ⏭️  Already sent to 'Cabinet Médical - Dr Tombo RAMANDIMBISOA' (+261342242990)
+2026-06-29 10:22:39,920  INFO  ⏭️  Already sent to 'Médical plus' (+261320460205)
+2026-06-29 10:22:39,921  INFO  ⏭️  Already sent to 'Centre Médical Ma Vie Ma Santé' (+261383800040)
+2026-06-29 10:22:39,921  INFO  ⏭️  Already sent to 'Cabinet Médical N&N' (+261387281864)
+2026-06-29 10:22:39,921  INFO  ⏭️  Already sent to 'Cabinet Médical Ophtalmologie Anjarasoa' (+261344015825)
+2026-06-29 10:22:39,921  WARNING  ⚠️  Skipped 'Cabinet Médical' — no number
+2026-06-29 10:22:39,949  INFO  ⏭️  Already sent to 'Cabinet médical VY VATO NY AINA' (+261330507200)
+2026-06-29 10:22:39,950  INFO  ⏭️  Already sent to 'Cabinet Médical Aina' (+261327722217)
+2026-06-29 10:22:39,950  INFO  ⏭️  Already sent to 'Cabinet Médical Dr Fanja' (+261343883609)
+2026-06-29 10:22:39,951  INFO  ⏭️  Already sent to 'Cabinet médical d'Ambodivonikely' (+261349849131)
+2026-06-29 10:22:39,952  INFO  ⏭️  Already sent to 'Cabinet Medical NOHAVY' (+261344889828)
+2026-06-29 10:22:39,952  INFO  ⏭️  Already sent to 'Cabinet Médical Bel'Air Ampandrana' (+261341635802)
+2026-06-29 10:22:39,952  INFO  ⏭️  Already sent to 'Centre Médical Manampisoa Ankad ifotsy' (+261207620855)
+2026-06-29 10:22:39,953  INFO  ⏭️  Already sent to 'Cabinet Médical TOLOTRA' (+261325205969)
+2026-06-29 10:22:39,953  WARNING  ⚠️  Skipped 'Cabinet medical d'Ankadindratombo' — no number
+2026-06-29 10:22:39,953  WARNING  ⚠️  Skipped 'Cabinet médical Dr. Nirina' — no number
+2026-06-29 10:22:39,953  WARNING  ⚠️  Skipped 'Cabinet Médical Dr Vololona Ambohimirary' — no number
+2026-06-29 10:22:39,953  INFO  ⏭️  Already sent to 'Modern Medical Mihary Soa' (+261202256257)
+2026-06-29 10:22:39,953  WARNING  ⚠️  Skipped 'Cabinet Médical MITIA' — no number
+2026-06-29 10:22:39,954  INFO  ⏭️  Already sent to 'Cabinet Médical Henri Andrianjafy' (+261320460750)
+2026-06-29 10:22:39,954  WARNING  ⚠️  Skipped 'CABINET MÉDICAL NAH' — no number
+2026-06-29 10:22:39,954  WARNING  ⚠️  Skipped 'CABINET MÉDICAL HERIZO' — no number
+2026-06-29 10:22:39,954  INFO  ⏭️  Already sent to 'Cabinet Medical - Dr Edmondine Ratovomanana' (+261331230755)
+2026-06-29 10:22:39,958  INFO  ⏭️  Already sent to 'Cabinet Médical et Dentaire Ivandry' (+261340397615)
+2026-06-29 10:22:39,959  INFO  ⏭️  Already sent to 'Docteur Florence' (+261320790110)
+2026-06-29 10:22:39,959  INFO  ⏭️  Already sent to 'Cabinet d'échographie Anjanahary' (+261349447958)
+2026-06-29 10:22:39,959  INFO  ⏭️  Already sent to 'CABINET MÉDICAL RATSIMAMANGA' (+261320224746)
+2026-06-29 10:22:39,959  WARNING  ⚠️  Skipped 'Cabinet Médical partenaire AFAFI' — no number
+2026-06-29 10:22:39,960  INFO  ⏭️  Already sent to 'CABINET DE SOINS D' URGENCES "HERY'AINA"' (+261377450957)
+2026-06-29 10:22:39,960  WARNING  ⚠️  Skipped 'Cabinet Médical MIARO NY AINA' — no number
+2026-06-29 10:22:39,960  INFO  ⏭️  Already sent to 'Cabinet Médical Gynécologie et Pédiatrie 67 Ha' (+261340122032)
+2026-06-29 10:22:39,960  WARNING  ⚠️  Skipped 'Dr Mboahangy' — no number
+2026-06-29 10:22:39,961  INFO  ⏭️  Already sent to 'FUNHECE | Centre Médical - Andraharo' (+261384200392)
+2026-06-29 10:22:39,961  INFO  ⏭️  Already sent to 'Boutique ANGIE PRETTY' (+261347730828)
+2026-06-29 10:22:39,961  INFO  ⏭️  Already sent to 'Twenty One Mode' (+261343614619)
+2026-06-29 10:22:39,961  INFO  ⏭️  Already sent to 'Boutique thoni' (+261345731821)
+2026-06-29 10:22:39,961  INFO  ⏭️  Already sent to 'Boutique VK Mada' (+261325023595)
+2026-06-29 10:22:39,962  INFO  ⏭️  Already sent to 'Clic Mora' (+261342311112)
+2026-06-29 10:22:39,962  INFO  ⏭️  Already sent to 'Caravelle MG Concept Store' (+261341433626)
+2026-06-29 10:22:39,963  WARNING  ⚠️  Skipped 'Aur'elle Boutique' — no number
+2026-06-29 10:22:39,963  INFO  ⏭️  Already sent to 'Tripolitsa Boutique' (+261337899900)
+2026-06-29 10:22:39,963  INFO  ⏭️  Already sent to 'FL Boutique' (+261327577727)
+2026-06-29 10:22:39,964  WARNING  ⚠️  Skipped 'BOUTIQUE MA COLLECTION' — no number
+2026-06-29 10:22:39,965  INFO  ⏭️  Already sent to 'Boutique de robe' (+261325071917)
+2026-06-29 10:22:39,966  INFO  ⏭️  Already sent to 'Cos'te Collections' (+261384443917)
+2026-06-29 10:22:39,966  INFO  ⏭️  Already sent to 'Ialy et Iris' (+261202224270)
+2026-06-29 10:22:39,966  WARNING  ⚠️  Skipped 'Ayem mode Muslim' — no number
+2026-06-29 10:22:39,967  WARNING  ⚠️  Skipped 'Doux Câlin' — no number
+2026-06-29 10:22:39,967  INFO  ⏭️  Already sent to 'Gabi's Shop' (+261342868319)
+2026-06-29 10:22:39,967  WARNING  ⚠️  Skipped 'Moda Station' — no number
+2026-06-29 10:22:39,967  INFO  ⏭️  Already sent to 'Guy outfit.Madagascar' (+261344681273)
+2026-06-29 10:22:39,967  INFO  ⏭️  Already sent to 'Time Boutique' (+261345240454)
+2026-06-29 10:22:39,968  INFO  ⏭️  Already sent to 'Mum and Me' (+261381490070)
+2026-06-29 10:22:39,970  INFO  ⏭️  Already sent to 'Mofoko, Boutique Mahamasina' (+261320511876)
+2026-06-29 10:22:39,973  WARNING  ⚠️  Skipped 'Boutique traditionnelle' — no number
+2026-06-29 10:22:39,974  INFO  ⏭️  Already sent to 'Lovencie Boutique' (+261342560286)
+2026-06-29 10:22:39,974  INFO  ⏭️  Already sent to 'Jumelles Boutique' (+261324759299)
+2026-06-29 10:22:39,975  INFO  ⏭️  Already sent to 'Fofolle Boutique' (+261381657233)
+2026-06-29 10:22:39,975  INFO  ⏭️  Already sent to 'Amaray Concept Store' (+261381318671)
+2026-06-29 10:22:39,975  INFO  ⏭️  Already sent to 'SMILE BOUTIQUE' (+261385637106)
+2026-06-29 10:22:39,976  WARNING  ⚠️  Skipped 'Boutique IMPACT PC' — no number
+2026-06-29 10:22:39,976  WARNING  ⚠️  Skipped 'BOUTIQUE HERTIE' — no number
+2026-06-29 10:22:39,976  INFO  ✅ 0 new leads | ⏭️  100 skipped
+2026-06-29 10:22:39,976  INFO  ✅ No new leads — all already contacted.
+2026-07-14 10:46:03,830  WARNING  ⚠️  Skipped 'Havana Cafe Takeout' — no number
+2026-07-14 10:46:03,832  WARNING  ⚠️  Skipped 'RIPPERS' — no number
+2026-07-14 10:46:03,833  INFO  ✅ 48 new leads | ⏭️  2 skipped
+2026-07-14 10:46:47,825  INFO  🔐 Waiting for WhatsApp Web (scan QR if needed)…
+2026-07-14 10:47:18,006  INFO  ✅ Logged in!
+2026-07-14 10:47:18,006  INFO  [1/48] → Lena Trattoria (+261+17182395362)
+2026-07-14 10:47:41,482  ERROR    ❌ Unexpected error for Lena Trattoria: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=150.0.7871.102)
+Stacktrace:
+0   chromedriver                        0x0000000104e09f9a chromedriver + 7016346
+1   chromedriver                        0x00000001047ce125 chromedriver + 479525
+2   chromedriver                        0x00000001047a17b8 chromedriver + 296888
+3   chromedriver                        0x0000000104851ba8 chromedriver + 1018792
+4   chromedriver                        0x000000010486c3b8 chromedriver + 1127352
+5   chromedriver                        0x0000000104816761 chromedriver + 776033
+6   chromedriver                        0x0000000104817581 chromedriver + 779649
+7   chromedriver                        0x0000000104dc8cd7 chromedriver + 6749399
+8   chromedriver                        0x0000000104dcd1e4 chromedriver + 6767076
+9   chromedriver                        0x0000000104da9884 chromedriver + 6621316
+10  chromedriver                        0x0000000104dcdc92 chromedriver + 6769810
+11  chromedriver                        0x0000000104d995b0 chromedriver + 6555056
+12  chromedriver                        0x0000000104df5e18 chromedriver + 6934040
+13  chromedriver                        0x0000000104df5fac chromedriver + 6934444
+14  chromedriver                        0x0000000104e09bb1 chromedriver + 7015345
+15  libsystem_pthread.dylib             0x00007ff80612f1d3 _pthread_start + 125
+16  libsystem_pthread.dylib             0x00007ff80612abd3 thread_start + 15
+
+2026-07-14 10:47:41,482  WARNING    ❌ Skipped Lena Trattoria — not on WhatsApp or failed
+2026-07-14 10:47:41,483  INFO    ⏳ Waiting 12s…
+2026-07-14 10:47:42,239  WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/2132e1cd2168d1d4f06e37d8f229f262
+2026-07-14 10:47:42,246  WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=53081): Failed to establish a new connection: [Errno 61] Connection refused")': /session/2132e1cd2168d1d4f06e37d8f229f262
+2026-07-14 10:47:42,248  WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=53081): Failed to establish a new connection: [Errno 61] Connection refused")': /session/2132e1cd2168d1d4f06e37d8f229f262
+2026-07-14 10:47:42,250  INFO  ──────────────────────────────────────────────────
+2026-07-14 10:47:42,252  INFO  📊 DONE — ✅ Sent: 0 | ❌ Failed/not on WA: 1

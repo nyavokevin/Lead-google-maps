@@ -1,0 +1,892 @@
+[{
+  "title": "Lena Trattoria",
+  "categoryName": "Italian restaurant",
+  "address": "3470 E Tremont Ave, Bronx, NY 10465",
+  "neighborhood": "East Bronx",
+  "street": "3470 E Tremont Ave",
+  "city": "Bronx",
+  "postalCode": "10465",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "https://www.lenatrattoria.com/",
+  "phone": "(718) 239-5362",
+  "phoneUnformatted": "+17182395362",
+  "location": {
+    "lat": 40.8315408,
+    "lng": -73.8273579
+  }
+},
+{
+  "title": "Porto Salvo",
+  "categoryName": "Italian restaurant",
+  "address": "424 E 161st St, Bronx, NY 10451",
+  "neighborhood": "Melrose",
+  "street": "424 E 161st St",
+  "city": "Bronx",
+  "postalCode": "10451",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "https://portosalvonyc.com/?utm_source=google",
+  "phone": "(929) 376-7866",
+  "phoneUnformatted": "+19293767866",
+  "location": {
+    "lat": 40.8236957,
+    "lng": -73.9129382
+  }
+},
+{
+  "title": "Pine Restaurant",
+  "categoryName": "Italian restaurant",
+  "address": "1913 Bronxdale Ave, Bronx, NY 10462",
+  "neighborhood": "East Bronx",
+  "street": "1913 Bronxdale Ave",
+  "city": "Bronx",
+  "postalCode": "10462",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "http://fjpine.com/",
+  "phone": "(718) 792-5956",
+  "phoneUnformatted": "+17187925956",
+  "location": {
+    "lat": 40.8487296,
+    "lng": -73.8622597
+  }
+},
+{
+  "title": "Leandro's Kitchen & Wine",
+  "categoryName": "Restaurant",
+  "address": "1000 Morris Park Ave, Bronx, NY 10462",
+  "neighborhood": "East Bronx",
+  "street": "1000 Morris Park Ave",
+  "city": "Bronx",
+  "postalCode": "10462",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "http://leandrosknw.com/",
+  "phone": "(718) 362-6009",
+  "phoneUnformatted": "+17183626009",
+  "location": {
+    "lat": 40.8479945,
+    "lng": -73.8559448
+  }
+},
+{
+  "title": "Wicked Wolf Bronx",
+  "categoryName": "American restaurant",
+  "address": "4029 E Tremont Ave, Bronx, NY 10465",
+  "neighborhood": "East Bronx",
+  "street": "4029 E Tremont Ave",
+  "city": "Bronx",
+  "postalCode": "10465",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "http://www.wickedwolfbronx.com/",
+  "phone": "(718) 829-4400",
+  "phoneUnformatted": "+17188294400",
+  "location": {
+    "lat": 40.8196472,
+    "lng": -73.81735
+  }
+},
+{
+  "title": "Dakota's On The Cove",
+  "categoryName": "American restaurant",
+  "address": "3154 Harding Ave, Bronx, NY 10465",
+  "neighborhood": "East Bronx",
+  "street": "3154 Harding Ave",
+  "city": "Bronx",
+  "postalCode": "10465",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "https://dakotasonthecove.com/",
+  "phone": "(718) 535-3079",
+  "phoneUnformatted": "+17185353079",
+  "location": {
+    "lat": 40.8169524,
+    "lng": -73.8067585
+  }
+},
+{
+  "title": "Mojitos",
+  "categoryName": "Fusion restaurant",
+  "address": "81-01 Northern Blvd, Jackson Heights, NY 11372",
+  "neighborhood": "Jackson Heights",
+  "street": "81-01 Northern Blvd",
+  "city": "Jackson Heights",
+  "postalCode": "11372",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "http://www.mojitosrestaurantbar.com/",
+  "phone": "(718) 350-9861",
+  "phoneUnformatted": "+17183509861",
+  "location": {
+    "lat": 40.7556188,
+    "lng": -73.88622
+  }
+},
+{
+  "title": "Sugar Restaurant",
+  "categoryName": "Restaurant",
+  "address": "1010 Southern Blvd, Bronx, NY 10459",
+  "neighborhood": "West Bronx",
+  "street": "1010 Southern Blvd",
+  "city": "Bronx",
+  "postalCode": "10459",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "http://sugarbbq.com/",
+  "phone": "(718) 600-7330",
+  "phoneUnformatted": "+17186007330",
+  "location": {
+    "lat": 40.8233916,
+    "lng": -73.8916024
+  }
+},
+{
+  "title": "Hongdae Korean restaurant",
+  "categoryName": "Korean restaurant",
+  "address": "149-09 41st Ave, Flushing, NY 11355",
+  "neighborhood": "Flushing",
+  "street": "149-09 41st Ave",
+  "city": "Flushing",
+  "postalCode": "11355",
+  "state": "New York",
+  "countryCode": "US",
+  "phone": "(917) 908-0368",
+  "phoneUnformatted": "+19179080368",
+  "location": {
+    "lat": 40.7623802,
+    "lng": -73.8155563
+  }
+},
+{
+  "title": "Step In",
+  "categoryName": "American restaurant",
+  "address": "1309 Metropolitan Ave, Bronx, NY 10462",
+  "neighborhood": "East Bronx",
+  "street": "1309 Metropolitan Ave",
+  "city": "Bronx",
+  "postalCode": "10462",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "http://www.stepinnyc.com/",
+  "phone": "(718) 822-0562",
+  "phoneUnformatted": "+17188220562",
+  "location": {
+    "lat": 40.833888,
+    "lng": -73.8611919
+  }
+},
+{
+  "title": "La Masa Restaurant Throggs Neck",
+  "categoryName": "Restaurant",
+  "address": "3399 E Tremont Ave, Bronx, NY 10461",
+  "neighborhood": "East Bronx",
+  "street": "3399 E Tremont Ave",
+  "city": "Bronx",
+  "postalCode": "10461",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "http://la-masa.square.site/",
+  "phone": "(718) 822-8400",
+  "phoneUnformatted": "+17188228400",
+  "location": {
+    "lat": 40.833458,
+    "lng": -73.8282542
+  }
+},
+{
+  "title": "Lava Rock Kitchen",
+  "categoryName": "Restaurant",
+  "address": "2119 Starling Ave 2nd Floor, Bronx, NY 10462",
+  "neighborhood": "East Bronx",
+  "street": "2119 Starling Ave 2nd Floor",
+  "city": "Bronx",
+  "postalCode": "10462",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "https://www.lavarockkitchen.com/",
+  "phone": "(718) 785-0048",
+  "phoneUnformatted": "+17187850048",
+  "location": {
+    "lat": 40.8363344,
+    "lng": -73.8543804
+  }
+},
+{
+  "title": "Nana's Kitchen",
+  "categoryName": "Eastern European restaurant",
+  "address": "1809 Hone Ave, Bronx, NY 10461",
+  "neighborhood": "East Bronx",
+  "street": "1809 Hone Ave",
+  "city": "Bronx",
+  "postalCode": "10461",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "http://www.nanaskitchenbronx.com/",
+  "phone": "(347) 810-9070",
+  "phoneUnformatted": "+13478109070",
+  "location": {
+    "lat": 40.8490321,
+    "lng": -73.8550635
+  }
+},
+{
+  "title": "Travesias",
+  "categoryName": "Latin American restaurant",
+  "address": "3834 E Tremont Ave, Bronx, NY 10465",
+  "neighborhood": "East Bronx",
+  "street": "3834 E Tremont Ave",
+  "city": "Bronx",
+  "postalCode": "10465",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "https://www.travesiasny.com/",
+  "phone": "(718) 828-3834",
+  "phoneUnformatted": "+17188283834",
+  "location": {
+    "lat": 40.8244662,
+    "lng": -73.8205745
+  }
+},
+{
+  "title": "Moon Cheese Restaurant",
+  "categoryName": "Colombian restaurant",
+  "address": "88-11 31st Ave, East Elmhurst, NY 11369",
+  "neighborhood": "East Elmhurst",
+  "street": "88-11 31st Ave",
+  "city": "East Elmhurst",
+  "postalCode": "11369",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "https://mooncheeserestaurant.shop/",
+  "phone": "(718) 255-1168",
+  "phoneUnformatted": "+17182551168",
+  "location": {
+    "lat": 40.7600949,
+    "lng": -73.8800038
+  }
+},
+{
+  "title": "Boca - Chicken Cafe",
+  "categoryName": "Chicken restaurant",
+  "address": "475 Bruckner Blvd, Bronx, NY 10455",
+  "neighborhood": "West Bronx",
+  "street": "475 Bruckner Blvd",
+  "city": "Bronx",
+  "postalCode": "10455",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "https://www.bocachickencafe.com/",
+  "phone": "(718) 799-1399",
+  "phoneUnformatted": "+17187991399",
+  "location": {
+    "lat": 40.8098501,
+    "lng": -73.9034226
+  }
+},
+{
+  "title": "Johnny's Reef",
+  "categoryName": "Seafood restaurant",
+  "address": "2 City Island Ave, Bronx, NY 10464",
+  "neighborhood": "City Island",
+  "street": "2 City Island Ave",
+  "city": "Bronx",
+  "postalCode": "10464",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "https://johnnysreefrestaurant.com/",
+  "phone": "(718) 885-2086",
+  "phoneUnformatted": "+17188852086",
+  "location": {
+    "lat": 40.837692,
+    "lng": -73.7826725
+  }
+},
+{
+  "title": "One Stop Restaurant",
+  "categoryName": "Restaurant",
+  "address": "Bronx, NY 10472",
+  "neighborhood": "East Bronx",
+  "street": null,
+  "city": "Bronx",
+  "postalCode": null,
+  "state": "New York",
+  "countryCode": "US",
+  "phone": "(718) 269-4672",
+  "phoneUnformatted": "+17182694672",
+  "location": {
+    "lat": 40.8309139,
+    "lng": -73.854134
+  }
+},
+{
+  "title": "HK Kitchen & Draft House",
+  "categoryName": "Bar & grill",
+  "address": "3599 E Tremont Ave, Bronx, NY 10465",
+  "neighborhood": "East Bronx",
+  "street": "3599 E Tremont Ave",
+  "city": "Bronx",
+  "postalCode": "10465",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "https://hkkitchendrafthouse.shop/",
+  "phone": "(347) 851-2000",
+  "phoneUnformatted": "+13478512000",
+  "location": {
+    "lat": 40.8290358,
+    "lng": -73.8244409
+  }
+},
+{
+  "title": "Morris Park Inn",
+  "categoryName": "American restaurant",
+  "address": "1024 Morris Park Ave, Bronx, NY 10461",
+  "neighborhood": "East Bronx",
+  "street": "1024 Morris Park Ave",
+  "city": "Bronx",
+  "postalCode": "10461",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "http://morrisparkinn.com/",
+  "phone": "(718) 239-4109",
+  "phoneUnformatted": "+17182394109",
+  "location": {
+    "lat": 40.8483418,
+    "lng": -73.8551709
+  }
+},
+{
+  "title": "Bayhouse",
+  "categoryName": "Bar & grill",
+  "address": "155-57 Bayview Ave, Rosedale, NY 11422",
+  "neighborhood": "Rosedale",
+  "street": "155-57 Bayview Ave",
+  "city": "Rosedale",
+  "postalCode": "11422",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "http://www.bayhousebar.com/",
+  "phone": "(718) 527-7575",
+  "phoneUnformatted": "+17185277575",
+  "location": {
+    "lat": 40.6373624,
+    "lng": -73.7450449
+  }
+},
+{
+  "title": "HalalXtreme Grill",
+  "categoryName": "Halal restaurant",
+  "address": "13-04 Beach Channel Dr, Far Rockaway, NY 11691",
+  "neighborhood": "Far Rockaway",
+  "street": "13-04 Beach Channel Dr",
+  "city": "Far Rockaway",
+  "postalCode": "11691",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "https://halalxtremegrill.dine.online/",
+  "phone": "(718) 489-8744",
+  "phoneUnformatted": "+17184898744",
+  "location": {
+    "lat": 40.6054152,
+    "lng": -73.75493
+  }
+},
+{
+  "title": "Tony's Pier",
+  "categoryName": "Seafood restaurant",
+  "address": "1 City Island Ave, Bronx, NY 10464",
+  "neighborhood": "City Island",
+  "street": "1 City Island Ave",
+  "city": "Bronx",
+  "postalCode": "10464",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "https://www.tonyspiercityisland.com/",
+  "phone": "(718) 885-1424",
+  "phoneUnformatted": "+17188851424",
+  "location": {
+    "lat": 40.83745,
+    "lng": -73.7831321
+  }
+},
+{
+  "title": "Lido Harlem Restaurant",
+  "categoryName": "Italian restaurant",
+  "address": "2168 Frederick Douglass Blvd, New York, NY 10026",
+  "neighborhood": "Manhattan",
+  "street": "2168 Frederick Douglass Blvd",
+  "city": "New York",
+  "postalCode": "10026",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "http://lidoharlem.com/",
+  "phone": "(646) 490-8575",
+  "phoneUnformatted": "+16464908575",
+  "location": {
+    "lat": 40.8048926,
+    "lng": -73.9546798
+  }
+},
+{
+  "title": "THEP Thai Restaurant",
+  "categoryName": "Thai restaurant",
+  "address": "1439 2nd Ave, New York, NY 10021",
+  "neighborhood": "Manhattan",
+  "street": "1439 2nd Ave",
+  "city": "New York",
+  "postalCode": "10021",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "http://www.thepnewyork.com/",
+  "phone": "(212) 899-9995",
+  "phoneUnformatted": "+12128999995",
+  "location": {
+    "lat": 40.7707714,
+    "lng": -73.9572357
+  }
+},
+{
+  "title": "Maisonetta",
+  "categoryName": "Mexican restaurant",
+  "address": "141 Lincoln Ave, Bronx, NY 10454",
+  "neighborhood": "Port Morris",
+  "street": "141 Lincoln Ave",
+  "city": "Bronx",
+  "postalCode": "10454",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "https://maisonettanyc.com/",
+  "phone": "(347) 297-4607",
+  "phoneUnformatted": "+13472974607",
+  "location": {
+    "lat": 40.808723,
+    "lng": -73.9291428
+  }
+},
+{
+  "title": "Havana Cafe Takeout",
+  "categoryName": "Cuban restaurant",
+  "address": "2164 Newbold Ave, Bronx, NY 10462",
+  "neighborhood": "East Bronx",
+  "street": "2164 Newbold Ave",
+  "city": "Bronx",
+  "postalCode": "10462",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "https://www.ubereats.com/store/havana-cafe-takeout/8iDF0SlCR-G_CaLTa_cCqA?srsltid=AfmBOoqjDmM5AE1Gvme9aOvLqOmhQIU5stpG29aM3_hiM8lJrJgktoT1",
+  "phone": "",
+  "phoneUnformatted": "",
+  "location": {
+    "lat": 40.8332268,
+    "lng": -73.8516815
+  }
+},
+{
+  "title": "La Reina Restaurant",
+  "categoryName": "Latin American restaurant",
+  "address": "3035 Cross Bronx Expy, Bronx, NY 10465",
+  "neighborhood": "East Bronx",
+  "street": "3035 Cross Bronx Expy",
+  "city": "Bronx",
+  "postalCode": "10465",
+  "state": "New York",
+  "countryCode": "US",
+  "phone": "(347) 281-9951",
+  "phoneUnformatted": "+13472819951",
+  "location": {
+    "lat": 40.8227397,
+    "lng": -73.818679
+  }
+},
+{
+  "title": "Adrienne's NYC",
+  "categoryName": "Italian restaurant",
+  "address": "25 Van Brunt Rd, Queens, NY 11693",
+  "neighborhood": "Broad Channel",
+  "street": "25 Van Brunt Rd",
+  "city": "Queens",
+  "postalCode": "11693",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "http://adriennes-nyc.com/",
+  "phone": "(718) 945-2525",
+  "phoneUnformatted": "+17189452525",
+  "location": {
+    "lat": 40.5973398,
+    "lng": -73.819623
+  }
+},
+{
+  "title": "Bungalow Bar",
+  "categoryName": "Bar & grill",
+  "address": "3-77 Beach 92nd St, Rockaway Park, NY 11694",
+  "neighborhood": "Rockaway Park",
+  "street": "3-77 Beach 92nd St",
+  "city": "Rockaway Park",
+  "postalCode": "11694",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "https://bungalowbarny.com/",
+  "phone": "(718) 945-2100",
+  "phoneUnformatted": "+17189452100",
+  "location": {
+    "lat": 40.5891852,
+    "lng": -73.8171514
+  }
+},
+{
+  "title": "Kimo's",
+  "categoryName": "Mediterranean restaurant",
+  "address": "92-16 Rockaway Beach Blvd, Queens, NY 11693",
+  "neighborhood": "Rockaway Beach",
+  "street": "92-16 Rockaway Beach Blvd",
+  "city": "Queens",
+  "postalCode": "11693",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "https://kimoskitchen.com/",
+  "phone": "(347) 926-4384",
+  "phoneUnformatted": "+13479264384",
+  "location": {
+    "lat": 40.5863456,
+    "lng": -73.8160552
+  }
+},
+{
+  "title": "Uma's",
+  "categoryName": "Uzbeki restaurant",
+  "address": "92-07 Rockaway Beach Blvd, Rockaway Park, NY 11694",
+  "neighborhood": "Rockaway Park",
+  "street": "92-07 Rockaway Beach Blvd",
+  "city": "Rockaway Park",
+  "postalCode": "11694",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "https://umasrockaway.com/",
+  "phone": "(718) 318-9100",
+  "phoneUnformatted": "+17183189100",
+  "location": {
+    "lat": 40.58617,
+    "lng": -73.815637
+  }
+},
+{
+  "title": "RIPPERS",
+  "categoryName": "Hamburger restaurant",
+  "address": "86-01 Shore Front Pkwy, Rockaway Beach, NY 11693",
+  "neighborhood": "Rockaway Beach",
+  "street": "86-01 Shore Front Pkwy",
+  "city": "Rockaway Beach",
+  "postalCode": "11693",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "http://eatrippers.com/",
+  "phone": "",
+  "phoneUnformatted": "",
+  "location": {
+    "lat": 40.5846394,
+    "lng": -73.8108278
+  }
+},
+{
+  "title": "The Restaurant",
+  "categoryName": "American restaurant",
+  "address": "86-05 Rockaway Beach Blvd, Rockaway Park, NY 11694",
+  "neighborhood": "Rockaway Park",
+  "street": "86-05 Rockaway Beach Blvd",
+  "city": "Rockaway Park",
+  "postalCode": "11694",
+  "state": "New York",
+  "countryCode": "US",
+  "phone": "(718) 634-5809",
+  "phoneUnformatted": "+17186345809",
+  "location": {
+    "lat": 40.5870657,
+    "lng": -73.8116321
+  }
+},
+{
+  "title": "Charlies Bar & Kitchen",
+  "categoryName": "New American restaurant",
+  "address": "112 Lincoln Ave, Bronx, NY 10454",
+  "neighborhood": "Port Morris",
+  "street": "112 Lincoln Ave",
+  "city": "Bronx",
+  "postalCode": "10454",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "http://charliesbarkitchen.com/",
+  "phone": "(718) 684-2338",
+  "phoneUnformatted": "+17186842338",
+  "location": {
+    "lat": 40.8078563,
+    "lng": -73.9291873
+  }
+},
+{
+  "title": "Caridad Restaurant",
+  "categoryName": "Dominican restaurant",
+  "address": "3533 Broadway, New York, NY 10031",
+  "neighborhood": "Manhattan",
+  "street": "3533 Broadway",
+  "city": "New York",
+  "postalCode": "10031",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "https://caridad145.com/?utm_source=google",
+  "phone": "(212) 862-4053",
+  "phoneUnformatted": "+12128624053",
+  "location": {
+    "lat": 40.8262205,
+    "lng": -73.9509336
+  }
+},
+{
+  "title": "Massawa",
+  "categoryName": "Ethiopian restaurant",
+  "address": "1239 Amsterdam Ave, New York, NY 10027",
+  "neighborhood": "Manhattan",
+  "street": "1239 Amsterdam Ave",
+  "city": "New York",
+  "postalCode": "10027",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "https://massawanyc.com/?utm_source=google",
+  "phone": "(212) 663-0505",
+  "phoneUnformatted": "+12126630505",
+  "location": {
+    "lat": 40.8098087,
+    "lng": -73.9586286
+  }
+},
+{
+  "title": "Hamilton Hall Bar & Restaurant",
+  "categoryName": "Restaurant",
+  "address": "3493 Broadway, New York, NY 10031",
+  "neighborhood": "Manhattan",
+  "street": "3493 Broadway",
+  "city": "New York",
+  "postalCode": "10031",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "http://www.hamiltonhallnyc.com/",
+  "phone": "(646) 454-9797",
+  "phoneUnformatted": "+16464549797",
+  "location": {
+    "lat": 40.8250528,
+    "lng": -73.9519092
+  }
+},
+{
+  "title": "Jägerhaus German Mediterranean Restaurant",
+  "categoryName": "German restaurant",
+  "address": "15-16 149th St, Flushing, NY 11357",
+  "neighborhood": "Flushing",
+  "street": "15-16 149th St",
+  "city": "Flushing",
+  "postalCode": "11357",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "https://jagerhausnyc.com/?utm_campaign=gmb",
+  "phone": "(718) 767-3486",
+  "phoneUnformatted": "+17187673486",
+  "location": {
+    "lat": 40.7866579,
+    "lng": -73.8164733
+  }
+},
+{
+  "title": "Trufa Restaurant",
+  "categoryName": "Italian restaurant",
+  "address": "3431 Broadway, New York, NY 10031",
+  "neighborhood": "Manhattan",
+  "street": "3431 Broadway",
+  "city": "New York",
+  "postalCode": "10031",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "https://trufarestaurant.com/",
+  "phone": "(646) 522-4142",
+  "phoneUnformatted": "+16465224142",
+  "location": {
+    "lat": 40.823178,
+    "lng": -73.9532027
+  }
+},
+{
+  "title": "A&S Cucina",
+  "categoryName": "Italian restaurant",
+  "address": "610 Exterior St Fl 4, Bronx, NY 10451",
+  "neighborhood": "West Bronx",
+  "street": "610 Exterior St Fl 4",
+  "city": "Bronx",
+  "postalCode": "10451",
+  "state": "New York",
+  "countryCode": "US",
+  "phone": "(718) 534-0880",
+  "phoneUnformatted": "+17185340880",
+  "location": {
+    "lat": 40.8205131,
+    "lng": -73.9301496
+  }
+},
+{
+  "title": "Parrilla Azteca Cibaena Restaurant",
+  "categoryName": "Restaurant",
+  "address": "1288 Westchester Ave, Bronx, NY 10459",
+  "neighborhood": "West Bronx",
+  "street": "1288 Westchester Ave",
+  "city": "Bronx",
+  "postalCode": "10459",
+  "state": "New York",
+  "countryCode": "US",
+  "phone": "(718) 708-1177",
+  "phoneUnformatted": "+17187081177",
+  "location": {
+    "lat": 40.8271372,
+    "lng": -73.8866015
+  }
+},
+{
+  "title": "Mission Ceviche",
+  "categoryName": "Peruvian restaurant",
+  "address": "1400 2nd Ave, New York, NY 10021",
+  "neighborhood": "Manhattan",
+  "street": "1400 2nd Ave",
+  "city": "New York",
+  "postalCode": "10021",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "https://www.missionceviche.com/",
+  "phone": "(212) 650-0014",
+  "phoneUnformatted": "+12126500014",
+  "location": {
+    "lat": 40.7691005,
+    "lng": -73.9578631
+  }
+},
+{
+  "title": "Seis Vecinos",
+  "categoryName": "Central American restaurant",
+  "address": "640 Prospect Ave, Bronx, NY 10455",
+  "neighborhood": "West Bronx",
+  "street": "640 Prospect Ave",
+  "city": "Bronx",
+  "postalCode": "10455",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "http://www.seisvecinos.com/",
+  "phone": "(718) 684-8604",
+  "phoneUnformatted": "+17186848604",
+  "location": {
+    "lat": 40.8154018,
+    "lng": -73.9029598
+  }
+},
+{
+  "title": "Edison's Restaurant",
+  "categoryName": "Family restaurant",
+  "address": "Manor Ave, Bronx, NY 10472",
+  "neighborhood": "East Bronx",
+  "street": "Manor Ave",
+  "city": "Bronx",
+  "postalCode": "10472",
+  "state": "New York",
+  "countryCode": "US",
+  "phone": "(718) 893-1339",
+  "phoneUnformatted": "+17188931339",
+  "location": {
+    "lat": 40.8292603,
+    "lng": -73.8765965
+  }
+},
+{
+  "title": "The BLVD",
+  "categoryName": "Bar & grill",
+  "address": "2918 Bruckner Blvd, Bronx, NY 10465",
+  "neighborhood": "East Bronx",
+  "street": "2918 Bruckner Blvd",
+  "city": "Bronx",
+  "postalCode": "10465",
+  "state": "New York",
+  "countryCode": "US",
+  "phone": "(347) 293-6161",
+  "phoneUnformatted": "+13472936161",
+  "location": {
+    "lat": 40.8331857,
+    "lng": -73.8273611
+  }
+},
+{
+  "title": "El Tina Harlem Restaurant",
+  "categoryName": "Dominican restaurant",
+  "address": "511 W 125th St, New York, NY 10027",
+  "neighborhood": "Manhattan",
+  "street": "511 W 125th St",
+  "city": "New York",
+  "postalCode": "10027",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "http://www.elnuevotinarestaurant.com/",
+  "phone": "(212) 222-1104",
+  "phoneUnformatted": "+12122221104",
+  "location": {
+    "lat": 40.8139344,
+    "lng": -73.9565123
+  }
+},
+{
+  "title": "LavieMex",
+  "categoryName": "Restaurant",
+  "address": "4001 E Tremont Ave, Bronx, NY 10465",
+  "neighborhood": "East Bronx",
+  "street": "4001 E Tremont Ave",
+  "city": "Bronx",
+  "postalCode": "10465",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "https://laviemex.toast.site/",
+  "phone": "(347) 293-5429",
+  "phoneUnformatted": "+13472935429",
+  "location": {
+    "lat": 40.8204777,
+    "lng": -73.8176506
+  }
+},
+{
+  "title": "ROYAL FUSION",
+  "categoryName": "Restaurant",
+  "address": "3168 E Tremont Ave, Bronx, NY 10461",
+  "neighborhood": "East Bronx",
+  "street": "3168 E Tremont Ave",
+  "city": "Bronx",
+  "postalCode": "10461",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "http://royalfusionnyc.com/",
+  "phone": "(718) 701-6226",
+  "phoneUnformatted": "+17187016226",
+  "location": {
+    "lat": 40.8371123,
+    "lng": -73.8344744
+  }
+},
+{
+  "title": "Inca Paisa Restaurant Bayside",
+  "categoryName": "Nuevo Latino restaurant",
+  "address": "25-71 Francis Lewis Blvd, Flushing, NY 11358",
+  "neighborhood": "Flushing",
+  "street": "25-71 Francis Lewis Blvd",
+  "city": "Flushing",
+  "postalCode": "11358",
+  "state": "New York",
+  "countryCode": "US",
+  "website": "https://incapaisa.com/",
+  "phone": "(718) 224-0332",
+  "phoneUnformatted": "+17182240332",
+  "location": {
+    "lat": 40.7734264,
+    "lng": -73.7960208
+  }
+}]

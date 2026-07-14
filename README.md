@@ -1,6 +1,12 @@
 # Outreach Pipeline — Ny Avo Kevin
 
-Automated lead collection + personalized message generation + email/WhatsApp sender.
+Local lead → email → WhatsApp pipeline powered by a local LM Studio model.
+
+Pipeline:
+
+```
+dataset/*.json  →  generate_emails.py (LM Studio)  →  emails_generes.csv  →  whatsapp.py (Selenium)
+```
 
 ---
 
@@ -9,15 +15,12 @@ Automated lead collection + personalized message generation + email/WhatsApp sen
 ```
 outreach/
 ├── lib/
-│   ├── serpapi.py       # SerpApi wrapper — multi-region lead scraping
-│   └── message_gen.py   # Claude API — generates email or WhatsApp message per lead
-├── collect_leads.py     # Step 1 + 2: scrape leads → generate messages → CSV
-├── send_outreach.py     # Step 3: send email (SMTP) or WhatsApp (Twilio)
-├── .env.example         # Copy to .env and fill in your keys
-└── output/
-    ├── leads_raw.csv        # All leads with contact info (no messages)
-    ├── leads_outreach.csv   # Leads + generated messages, ready to send
-    └── send_log.csv         # Send history (auto-created)
+│   ├── llm_http.py     # LM Studio OpenAI-compatible HTTP client
+│   └── lmstudio.py     # Email generation from LM Studio (no external APIs)
+├── generate_emails.py  # Step 1+2: dataset JSON → generated emails CSV
+├── whatsapp.py         # Step 3: send via WhatsApp Web (Selenium)
+├── env.example         # Copy to .env and set LM Studio host/port/model
+└── emails_generes.csv  # Generated output (auto-created), read by whatsapp.py
 ```
 
 ---
@@ -25,128 +28,84 @@ outreach/
 ## Setup
 
 ```bash
-pip install requests twilio
-cp .env.example .env
-# Edit .env with your real keys
+pip install pandas selenium
+cp env.example .env
+# Edit .env with your LM Studio host/port and model id
 ```
 
-### Keys needed
+### Settings needed
 
-| Key | Where to get it |
-|-----|----------------|
-| `SERPAPI_KEY` | https://serpapi.com — free trial: 100 searches/month |
-| `SMTP_USER` / `SMTP_PASS` | Gmail App Password: https://myaccount.google.com/apppasswords |
-| `TWILIO_SID` / `TWILIO_TOKEN` | https://www.twilio.com — free sandbox available |
+| Key | Description |
+|-----|-------------|
+| `LM_STUDIO_HOST` | IP/host of the machine running LM Studio |
+| `LM_STUDIO_PORT` | Port LM Studio listens on (default 1234) |
+| `LM_MODEL` | Exact model identifier shown in LM Studio |
 
-> **No LM Studio needed.** Messages are generated via Claude API (already connected in claude.ai).
+> **LM Studio required.** Start LM Studio and load the model you set in `LM_MODEL`
+> (it exposes an OpenAI-compatible API at `http://<host>:<port>/v1`).
 
 ---
 
-## Step 1 & 2 — Collect leads + generate messages
+## Step 1 & 2 — Generate emails
+
+`generate_emails.py` reads a JSON dataset of leads (an array of objects) from the
+`dataset/` folder. By default it uses `dataset/dataset_reastau_NA.json`; override with the
+`DATASET_FILE` env var. Each entry is mapped to the fields LM Studio needs:
+
+| Dataset field | Mapped to | Description |
+|---------------|-----------|-------------|
+| `title` | `name` / `title` | Business name |
+| `categoryName` | `type` | Business type (used to classify the pitch) |
+| `address` | `address` | Full address |
+| `phoneUnformatted` / `phone` | `whatsapp` / `phone` | Phone number for WhatsApp |
+| `email` | `email` | Email address (usually empty in this dataset) |
+
+Then run:
 
 ```bash
-export SERPAPI_KEY=your_key     # or put it in .env
-python collect_leads.py
+python generate_emails.py
 ```
 
-**What it does:**
-- Scrapes **250 leads** across 3 regions (no-website filter):
-  - 🇲🇬 50 × Madagascar (Antananarivo, Toamasina, Antsirabe, Fianarantsoa, Mahajanga)
-  - 🇫🇷 50 × France (Paris, Lyon, Marseille, Bordeaux, Nantes)
-  - 🌍 50 × International (Dubai, London, Toronto, Singapore, Nairobi)
-- For each lead:
-  - If **email found** → generates a full professional email (subject + body)
-  - If **phone only** → generates a short professional WhatsApp message (≤320 chars)
-- Language adapts: French for Madagascar/France, English for international
-- Pitch adapts to business type: ERP-first for medical/legal/accounting, web for resto/hotel, mobile/web app for tech
-- Saves `output/leads_raw.csv` and `output/leads_outreach.csv`
-
-### SerpApi cost estimate
-- 5 cities × 3 regions × 5 queries × 1 page = **75 API credits**
-- Fallback queries: up to ~15 extra = **~90 credits total**
-- Free plan: 100/month → upgrade or space your runs
+This writes `emails_generes.csv` with columns `name, category, subject, body, whatsapp, email`.
 
 ---
 
-## Step 3 — Send messages
+## Step 3 — Send via WhatsApp
 
 ```bash
-python send_outreach.py
+python whatsapp.py
 ```
 
-**Default: DRY RUN** — prints messages, does NOT send.
-
-To actually send, open `send_outreach.py` and set:
-```python
-DRY_RUN = False
-```
-
-**Sending logic:**
-- `channel == 'email'` → SMTP (Gmail or any provider)
-- `channel == 'whatsapp'` → Twilio WhatsApp API
-- `channel == 'none'` → skipped (no contact info found)
+Reads `emails_generes.csv`, opens WhatsApp Web via Selenium (Chrome), and sends each
+message. Scan the QR code on first run. Sent numbers are tracked in
+`leads_history/number_sent.txt` so already-contacted leads are skipped.
 
 **Safety features:**
-- `MAX_SENDS_PER_RUN = 50` — cap per run (edit to increase)
-- `DELAY_BETWEEN_SENDS = 3` — seconds between sends
-- Resume support — already-sent leads are skipped (tracked in `send_log.csv`)
-
----
-
-## CSV columns
-
-### leads_outreach.csv
-| Column | Description |
-|--------|-------------|
-| `name` | Business name |
-| `category` | Classified type (restaurant, hotel, medical, legal, accounting, retail, tech, generic…) |
-| `channel` | `email` / `whatsapp` / `none` |
-| `subject` | Email subject (empty for WA) |
-| `body` | Full message body |
-| `email` | Email address (if found) |
-| `whatsapp` | Phone number for WhatsApp |
-| `phone` | Raw phone |
-| `city` | City scraped from |
-| `region` | `madagascar` / `france` / `international` |
-| `language` | `fr` / `en` |
-| `website` | Website (empty = no-website lead) |
-| `rating` | Google Maps rating |
-| `address` | Full address |
-| `place_id` | Google Maps place_id |
+- `MAX_DAILY = 40` — daily cap
+- `DELAY_BETWEEN = 12` — seconds between sends
+- `MAX_RETRIES = 3` — retries if the chat screen doesn't load
 
 ---
 
 ## Customization
 
-### Add more cities
-Edit `REGION_TARGETS` in `lib/serpapi.py`:
-```python
-("Toliara", -23.3500, 43.6667, "mg", "fr", "madagascar"),
-```
-
-### Change target quota
-Edit `TARGET_PER_REGION` in `collect_leads.py`:
-```python
-TARGET_PER_REGION = {
-    "madagascar":    100,
-    "france":        100,
-    "international": 50,
-}
-```
-
 ### Add business categories
-Edit `CATEGORY_KEYWORDS` and `PITCH_BY_CATEGORY` in `lib/message_gen.py`.
+Edit `CATEGORY_KEYWORDS` and the pitch maps (`_build_system_prompt`) in `lib/lmstudio.py`.
 
 ### Your services (edit the pitch)
-Kevin's specializations are set in `lib/message_gen.py → PITCH_BY_CATEGORY`:
+Kevin's specializations live in the pitch dictionaries inside
+`lib/lmstudio.py` (restaurant, hotel, medical, legal, accounting, retail, education, generic):
 - **ERP** (medical, legal, accounting, retail, hotel)
 - **Web application** (all categories)
-- **Mobile app** (tech, on request)
+- **E-commerce** (retail)
 
 ---
 
 ## Tips
 
-- **WhatsApp Business API**: Twilio sandbox works for testing but requires the recipient to opt in first. For production, use a verified Twilio number or the Meta Cloud API.
-- **Gmail App Password**: never use your real password. Generate at https://myaccount.google.com/apppasswords (2FA must be enabled).
-- **SerpApi email extraction**: Google Maps rarely shows emails publicly. Most leads will be `channel=whatsapp`. To enrich emails, consider adding a Hunter.io or Apollo.io step.
+- **WhatsApp Web via Selenium** uses your personal account. Respect WhatsApp's
+  anti-spam limits — keep the daily cap low and the delay between sends high.
+- **Numbers** are normalized in `whatsapp.py`. Its `format_number()` currently defaults to
+  `+261` (Madagascar). For datasets with other country codes (e.g. the US `+1` entries in
+  `dataset_reastau_NA.json`), update `format_number()` to handle the correct prefix, or
+  sends will fail.
